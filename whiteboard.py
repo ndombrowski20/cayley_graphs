@@ -75,7 +75,7 @@ class Cayley:
         # print(str(self._graph.number_of_edges()) + " is the number of edges")
 
         pickel = input("Do you want me to pickle this graph? Y/N ")
-        if pickel == 'Y':
+        if pickel.lower() == 'y':
             self.pickle_me()
 
     def read_pickle(self, a_str):
@@ -85,9 +85,7 @@ class Cayley:
             raise Exception("there might be a problem, no nodes")
 
     def feed_pickle(self):
-        file_name = input("Please type the exact document name into this input."
-                          "it must be exactly the same and might have to be saved "
-                          "where this file is saved")
+        file_name = input("Please type the exact document name into this input: ")
 
         self.read_pickle(file_name)
 
@@ -113,10 +111,6 @@ class Cayley:
         }
         pos = nx.spring_layout(self._graph)
 
-        pickel = input("Do you want me to pickle this graph? Y/N ")
-        if pickel.lower() == 'y':
-            self.pickle_me()
-
         save_file = input("Do you want me to save this file? Y/N ")
         if save_file.lower() == 'y':
             denom = int(input("denominator? numbers only please "))
@@ -133,9 +127,11 @@ class Cayley:
         plt.show()
 
     def pickle_me(self):
-        filename = input("What do you want me to name the pickle file")
-
-        pickle.dump(self._graph, open(filename, 'w'))
+        input_name = str(input("What do you want me to name the pickle file"))
+        filename = 'pickles/' + input_name + ".txt"
+        print('hello')
+        pickle.dump(self._graph, open(filename, 'wb'))
+        print("saved to: "+filename)
 
     def export_gv(self):
         if self._paranoid:
@@ -178,5 +174,8 @@ G = NewGroup([a, b], [aa, bb, aA, bB, abAB], num)
 
 newCayley = Cayley()
 
-newCayley.read_newgraph(G)
-newCayley.draw()
+#newCayley.read_newgraph(G)
+#newCayley.draw()
+
+secondCayley = Cayley()
+secondCayley.feed_pickle()

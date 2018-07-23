@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/old code/group_with_cache.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graphing.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_file_cayley.py" beforeDir="false" afterPath="$PROJECT_DIR$/master_file_cayley.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/whiteboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,28 +34,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whiteboard.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="whiteboard.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/whiteboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="348">
+              <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#3212#3325#0" />
-                <element signature="e#3406#3652#0" />
-                <element signature="e#3658#5221#0" />
-                <element signature="e#3877#3890#0" />
                 <element signature="e#5276#5761#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphing.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="graphing.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="77" selection-start-line="77" selection-end-line="79" selection-end-column="40" />
+            <state relative-caret-position="178">
+              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -79,8 +74,8 @@
       <find>print</find>
       <find>add_</find>
       <find>add_w</find>
-      <find>test_equals</find>
       <find>test</find>
+      <find>test_equals</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,8 +87,8 @@
         <option value="$PROJECT_DIR$/drawing board.py" />
         <option value="$PROJECT_DIR$/old code/group_with_cache.py" />
         <option value="$PROJECT_DIR$/master_file_cayley.py" />
-        <option value="$PROJECT_DIR$/graphing.py" />
         <option value="$PROJECT_DIR$/whiteboard.py" />
+        <option value="$PROJECT_DIR$/graphing.py" />
       </list>
     </option>
   </component>
@@ -120,7 +115,12 @@
             <path>
               <item name="cayley-graph" type="b2602c69:ProjectViewProjectNode" />
               <item name="cayley-graph" type="462c0819:PsiDirectoryNode" />
-              <item name="old code" type="462c0819:PsiDirectoryNode" />
+              <item name="old-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cayley-graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cayley-graph" type="462c0819:PsiDirectoryNode" />
+              <item name="pickles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,6 +202,21 @@
       <option name="presentableId" value="Default" />
       <updated>1532034969015</updated>
     </task>
+    <task id="LOCAL-00001" summary="created the cayley class in whiteboard.py&#10;modified master_file_cayley to have a new 'test equals' name&#10;removed the group that worked with cache and added it to a new file in &#10;a folder 'old code'">
+      <created>1532372664306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532372664306</updated>
+    </task>
+    <task id="LOCAL-00002" summary="removed space">
+      <created>1532372962284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532372962284</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -230,9 +245,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created the cayley class in whiteboard.py&#10;modified master_file_cayley to have a new 'test equals' name&#10;removed the group that worked with cache and added it to a new file in &#10;a folder 'old code'" />
+    <MESSAGE value="removed space" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed space" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -350,7 +370,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old code/group_with_cache.py">
+    <entry file="file://$PROJECT_DIR$/old-code/group_with_cache.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="862">
           <caret line="408" column="21" selection-start-line="408" selection-start-column="21" selection-end-line="408" selection-end-column="21" />
@@ -374,27 +394,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphing.py">
+    <entry file="file://$PROJECT_DIR$/pickles/pickletest1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pickles/bad_test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="77" selection-start-line="77" selection-end-line="79" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/whiteboard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="348">
+          <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#3212#3325#0" />
-            <element signature="e#3406#3652#0" />
-            <element signature="e#3658#5221#0" />
-            <element signature="e#3877#3890#0" />
             <element signature="e#5276#5761#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

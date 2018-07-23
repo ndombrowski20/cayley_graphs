@@ -100,4 +100,4 @@ print(str(H.number_of_edges()) + " is the number of edges")
 imagename = "ngroup.cayley." + group + ".(4," + str(denom) + ") - " + version_num + ".png"
 
 # plt.savefig(imagename)
-plt.show()
+# plt.show()
