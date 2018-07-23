@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphing.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard.py" afterDir="false" />
-    </list>
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,20 +212,26 @@
       <option name="project" value="LOCAL" />
       <updated>1532372962284</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2:51&#10;for testing on vlad, graphing was changed&#10;whiteboard is still being changed for the cayley class">
+      <created>1532375571911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532375571911</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="1072" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -248,7 +250,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created the cayley class in whiteboard.py&#10;modified master_file_cayley to have a new 'test equals' name&#10;removed the group that worked with cache and added it to a new file in &#10;a folder 'old code'" />
     <MESSAGE value="removed space" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed space" />
+    <MESSAGE value="2:51&#10;for testing on vlad, graphing was changed&#10;whiteboard is still being changed for the cayley class" />
+    <option name="LAST_COMMIT_MESSAGE" value="2:51&#10;for testing on vlad, graphing was changed&#10;whiteboard is still being changed for the cayley class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
