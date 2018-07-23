@@ -4,6 +4,8 @@ from master_file_cayley import NewGroup
 import os
 import psutil
 import networkx as nx
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 
 process = psutil.Process(os.getpid())

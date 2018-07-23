@@ -8,6 +8,8 @@ import time
 import os
 import psutil
 import networkx as nx
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import pickle
 
