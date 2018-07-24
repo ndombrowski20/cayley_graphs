@@ -780,25 +780,31 @@ class NewGroup:
             if num_of_test_equals > self._upper_limit:
                 raise Exception("sorry no words with lengths greater than my upper limit")
 
-        # overall_start_time = time.time()
+        total = 0
+        for t in range(len_of_non_reduced + 1):
+            total = total + 4**t
+
+        overall_start_time = time.time()
         identity = Word([])
         elem_of_quotient = [identity]
 
         freegroup_nonreduced = self.yield_non_reduced_words(len_of_non_reduced)
-
+        i = 0
         for a_word in freegroup_nonreduced:
             # print("I'm " + a_word.return_word_str())
             admitted = True
-            # start_time = time.time()
+            start_time = time.time()
 
             for existing_elem in elem_of_quotient:
                 # print("I'm being tested against " + existing_elem.return_word_str())
                 if self.test_equals(a_word, existing_elem, num_of_test_equals):
                     # print("didn't make it \n")
-                    # print("this took %s seconds \n" % (round(time.time() - start_time, 3)))
-
                     admitted = False
                     break
+
+            print("this took %s seconds \n" % (round(time.time() - start_time, 3)))
+            i = i+1
+            print(str(i) + " of " + str(total - 1) + " completed")
 
             if admitted:
                 # print("made it \n")
@@ -807,10 +813,10 @@ class NewGroup:
                 # print(process.memory_info().rss / 10 ** 6)
                 yield a_word
 
-        # print("Overall time: %s seconds" % (round(time.time() - overall_start_time, 3)))
-        # print("There are " + str(len(elem_of_quotient)) + " entries")
-        # print("memory use:")
-        # print(process.memory_info().rss / 10 ** 6)
+        print("Overall time: %s seconds" % (round(time.time() - overall_start_time, 3)))
+        print("There are " + str(len(elem_of_quotient)) + " entries")
+        print("memory use:")
+        print(process.memory_info().rss / 10 ** 6)
 
     def list_generators(self):
         # this returns all of the generators in a list. This is done so that when the

@@ -197,8 +197,9 @@ aA = Word([a, A])
 bB = Word([b, B])
 bb = Word([b, b])
 abAB = Word([a, b, A, B])
+bbbbbb = Word([b, b, b, b, b, b])
 
-G = NewGroup([a, b], [aa, bb, aA, bB, abAB], num)
+G = NewGroup([a, b], [aa, bbbbbb, aA, bB, abAB], num)
 
 newCayley = Cayley()
 
