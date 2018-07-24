@@ -69,7 +69,7 @@ class Cayley:
                         break
 
             i = i + 1
-            # print(str(i) + " out of " + str(len(elements)) + " completed \n")
+            print(str(i) + " out of " + str(len(elements)) + " completed \n")
 
         # print(str(self._graph.number_of_nodes()) + " is the number of nodes")
         # print(str(self._graph.number_of_edges()) + " is the number of edges")
