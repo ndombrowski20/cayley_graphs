@@ -198,8 +198,20 @@ bB = Word([b, B])
 bb = Word([b, b])
 ababab = Word([a, b, a, b, a, b])
 bbb = Word([b, b, b])
+bbbbbb = Word([b, b, b, b, b, b])
+abab = Word([a, b, a, b])
+abAB = Word([a, b, A, B])
 
-G = NewGroup([a, b], [aa, bbb, aA, bB, ababab], num)
+group_selection = input("Which group? G2/G3/G4 exclusively ")
+if group_selection.lower() == "g2":
+    G = NewGroup([a, b], [aa, bbbbbb, aA, bB, abAB], num)
+elif group_selection.lower() == "g3":
+    G = NewGroup([a, b], [aa, bbbbbb, aA, bB, abab], num)
+elif group_selection.lower() == "g4":
+    G = NewGroup([a, b], [aa, bbb, aA, bB, ababab], num)
+else:
+    raise Exception("for the code to proceed, I need to make some G so I had to stop")
+
 
 newCayley = Cayley()
 
