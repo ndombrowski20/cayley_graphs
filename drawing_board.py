@@ -196,10 +196,10 @@ aa = Word([a, a])
 aA = Word([a, A])
 bB = Word([b, B])
 bb = Word([b, b])
-abab = Word([a, b, a, b])
-bbbbbb = Word([b, b, b, b, b, b])
+ababab = Word([a, b, a, b, a, b])
+bbb = Word([b, b, b])
 
-G = NewGroup([a, b], [aa, bbbbbb, aA, bB, abab], num)
+G = NewGroup([a, b], [aa, bbb, aA, bB, ababab], num)
 
 newCayley = Cayley()
 
