@@ -8,8 +8,8 @@ import time
 import os
 import psutil
 import networkx as nx
-import matplotlib
-matplotlib.use('agg')
+# import matplotlib
+# matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import pickle
 
@@ -65,9 +65,7 @@ class Cayley:
                         # print(elem_with_letter.return_word_str() + " == " + member_2.return_word_str())
                         # print(member.return_word_str() + " is connected to " + member_2.return_word_str() +
                               # " by " + gen_letter.get_str())
-
                         self._graph.add_edges_from([(member, member_2)], color=color_list[j])
-                        self._graph.node[member_2]['word'] = member_2.return_word_str()
                         break
 
             i = i + 1
@@ -80,20 +78,38 @@ class Cayley:
         if pickel.lower() == 'y':
             self.pickle_me()
 
+        group_p = input("Do you want me to pickle this group? Y/N ")
+        if group_p.lower() == "y":
+            self.pickle_my_group(a_group)
+
     def read_pickle(self, a_str):
-        self._graph = pickle.load(open(a_str))
+        # this allows the user to input a pickle file for the graph rather
+        # than having to generate the graph every time.
+        self._graph = pickle.load(open(a_str, 'rb'))
 
         if not self._graph.nodes():
             raise Exception("there might be a problem, no nodes")
 
+    def read_pickle_group(self, a_str):
+        # this allows for a cayley object to read in a group from a pickle
+        # rather than having to generate the group every time. This massively
+        # increases the efficiency for larger groups.
+
+        a_group = pickle.load(open(a_str, 'rb'))
+        if self._paranoid:
+            if not isinstance(a_group, NewGroup):
+                raise Exception("This didn't read in a group")
+
+        self.read_newgraph(a_group)
+
     def feed_pickle(self):
+        # this takes a string input for the file name and feeds it to read pickle
         file_name = input("Please type the exact document name into this input: ")
 
         self.read_pickle(file_name)
 
     def draw(self):
-        # this just takes the edges and creates a dictionary of a node being the keys to the other nodes that
-        # it is connected to. This way we can see what Words are connected to one another.
+        # this draws the graph that has been stored in the cayley object.
         if self._paranoid:
             if not self._graph.nodes():
                 raise Exception("There's nothing to print, you haven't populated me with a graph yet")
@@ -129,11 +145,21 @@ class Cayley:
         plt.show()
 
     def pickle_me(self):
-        input_name = str(input("What do you want me to name the pickle file"))
+        input_name = str(input("What do you want me to name the pickle file "))
         filename = 'pickles/' + input_name + ".txt"
         print('hello')
         pickle.dump(self._graph, open(filename, 'wb'))
         print("saved to: "+filename)
+
+    def pickle_my_group(self, a_group):
+        if self._paranoid:
+            if not isinstance(a_group, NewGroup):
+                raise Exception("This is only for pickling groups")
+
+        group_name = str(input("What should I name this group pickle? "))
+        filename = 'pickles/' + group_name + ".txt"
+        pickle.dump(self._graph, open(filename, 'wb'))
+        print("saved to: " + filename)
 
     def export_gv(self):
         if self._paranoid:
@@ -176,8 +202,10 @@ G = NewGroup([a, b], [aa, bb, aA, bB, abAB], num)
 
 newCayley = Cayley()
 
-#newCayley.read_newgraph(G)
-#newCayley.draw()
+newCayley.read_newgraph(G)
+newCayley.draw()
 
-secondCayley = Cayley()
-secondCayley.feed_pickle()
+
+# secondCayley = Cayley()
+# secondCayley.feed_pickle()
+# secondCayley.export_gv()
