@@ -672,6 +672,7 @@ class NewGroup:
             newly_added = []
             coset_producer = _iterate_with_words(coset_trie, self._relator_list,
                                                  expand_me, newly_added, max_length)
+            print("Now adding expansions for " + str(len(expand_me)) + " words")
             for member in coset_producer:
                 yield member
 

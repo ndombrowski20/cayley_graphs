@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="1:13&#10;changing g3 to g4">
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawing_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/drawing_board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master_file_cayley.py" beforeDir="false" afterPath="$PROJECT_DIR$/master_file_cayley.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="master_file_cayley.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="master_file_cayley.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="803" lean-forward="true" selection-start-line="803" selection-end-line="803" />
+            <state relative-caret-position="285">
+              <caret line="668" column="18" selection-start-line="668" selection-start-column="18" selection-end-line="668" selection-end-column="18" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#94#3083#0" />
@@ -27,6 +27,14 @@
                 <element signature="e#13214#15735#0" />
                 <element signature="e#15755#20507#0" />
                 <element signature="e#20532#21243#0" />
+                <element signature="e#24538#24824#0" />
+                <element signature="e#24883#25521#0" />
+                <element signature="e#27825#28503#0" />
+                <element signature="e#28561#30535#0" />
+                <element signature="e#30591#32491#0" />
+                <element signature="e#32580#34618#0" />
+                <element signature="e#34557#34845#0" />
+                <element signature="e#34894#35050#0" />
               </folding>
             </state>
           </provider>
@@ -35,8 +43,8 @@
       <file leaf-file-name="whiteboard.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/whiteboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="204" lean-forward="true" selection-end-line="212" />
+            <state relative-caret-position="650">
+              <caret line="209" column="25" lean-forward="true" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#632#686#0" />
@@ -64,18 +72,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drawing_board.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="drawing_board.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drawing_board.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="212" column="32" selection-start-line="212" selection-start-column="32" selection-end-line="212" selection-end-column="32" />
+            <state relative-caret-position="-1782">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#720#774#0" />
-                <element signature="e#3311#3589#0" />
+                <element signature="e#822#3267#0" />
                 <element signature="e#3639#4064#0" />
-                <element signature="e#4101#4294#0" />
-                <element signature="e#4324#5696#0" />
                 <element signature="e#5731#5969#0" />
                 <element signature="e#6019#6376#0" />
                 <element signature="e#6411#6896#0" />
@@ -111,9 +117,9 @@
         <option value="$PROJECT_DIR$/drawing board.py" />
         <option value="$PROJECT_DIR$/old code/group_with_cache.py" />
         <option value="$PROJECT_DIR$/graphing.py" />
-        <option value="$PROJECT_DIR$/master_file_cayley.py" />
         <option value="$PROJECT_DIR$/whiteboard.py" />
         <option value="$PROJECT_DIR$/drawing_board.py" />
+        <option value="$PROJECT_DIR$/master_file_cayley.py" />
       </list>
     </option>
   </component>
@@ -303,21 +309,35 @@
       <option name="project" value="LOCAL" />
       <updated>1532456030336</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="4:50&#10;Changed drawing board to have the ability to choose which group is being made so that i don't have to keep changing the group manually">
+      <created>1532469075655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1532469075655</updated>
+    </task>
+    <task id="LOCAL-00010" summary="10:41&#10;gonna try this on vlad to see if the extra print statements will help get his ass moving">
+      <created>1532619702058</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1532619702058</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="1072" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943678" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -368,11 +388,13 @@
     <MESSAGE value="12:17&#10;changed drawing board so i could run further tests" />
     <MESSAGE value="12:21&#10;i hate this agg fix for matplotlib" />
     <MESSAGE value="1:13&#10;changing g3 to g4" />
-    <option name="LAST_COMMIT_MESSAGE" value="1:13&#10;changing g3 to g4" />
+    <MESSAGE value="4:50&#10;Changed drawing board to have the ability to choose which group is being made so that i don't have to keep changing the group manually" />
+    <MESSAGE value="10:41&#10;gonna try this on vlad to see if the extra print statements will help get his ass moving" />
+    <option name="LAST_COMMIT_MESSAGE" value="10:41&#10;gonna try this on vlad to see if the extra print statements will help get his ass moving" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -388,6 +410,14 @@
             <element signature="e#13214#15735#0" />
             <element signature="e#15755#20507#0" />
             <element signature="e#20532#21243#0" />
+            <element signature="e#24538#24824#0" />
+            <element signature="e#24883#25521#0" />
+            <element signature="e#27825#28503#0" />
+            <element signature="e#28561#30535#0" />
+            <element signature="e#30591#32491#0" />
+            <element signature="e#32580#34618#0" />
+            <element signature="e#34557#34845#0" />
+            <element signature="e#34894#35050#0" />
           </folding>
         </state>
       </provider>
@@ -537,26 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="803" lean-forward="true" selection-start-line="803" selection-end-line="803" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#94#3083#0" />
-            <element signature="e#3102#9487#0" />
-            <element signature="e#9505#13191#0" />
-            <element signature="e#13214#15735#0" />
-            <element signature="e#15755#20507#0" />
-            <element signature="e#20532#21243#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/whiteboard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="204" lean-forward="true" selection-end-line="212" />
+        <state relative-caret-position="650">
+          <caret line="209" column="25" lean-forward="true" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#632#686#0" />
@@ -573,18 +587,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/drawing_board.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="212" column="32" selection-start-line="212" selection-start-column="32" selection-end-line="212" selection-end-column="32" />
+        <state relative-caret-position="-1782">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#720#774#0" />
-            <element signature="e#3311#3589#0" />
+            <element signature="e#822#3267#0" />
             <element signature="e#3639#4064#0" />
-            <element signature="e#4101#4294#0" />
-            <element signature="e#4324#5696#0" />
             <element signature="e#5731#5969#0" />
             <element signature="e#6019#6376#0" />
             <element signature="e#6411#6896#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="668" column="18" selection-start-line="668" selection-start-column="18" selection-end-line="668" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#94#3083#0" />
+            <element signature="e#3102#9487#0" />
+            <element signature="e#9505#13191#0" />
+            <element signature="e#13214#15735#0" />
+            <element signature="e#15755#20507#0" />
+            <element signature="e#20532#21243#0" />
+            <element signature="e#24538#24824#0" />
+            <element signature="e#24883#25521#0" />
+            <element signature="e#27825#28503#0" />
+            <element signature="e#28561#30535#0" />
+            <element signature="e#30591#32491#0" />
+            <element signature="e#32580#34618#0" />
+            <element signature="e#34557#34845#0" />
+            <element signature="e#34894#35050#0" />
           </folding>
         </state>
       </provider>
