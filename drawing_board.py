@@ -90,6 +90,8 @@ class Cayley:
         if not self._graph.nodes():
             raise Exception("there might be a problem, no nodes")
 
+        self.draw()
+
     def read_pickle_group(self, a_str):
         # this allows for a cayley object to read in a group from a pickle
         # rather than having to generate the group every time. This massively
