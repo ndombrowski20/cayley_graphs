@@ -4,8 +4,8 @@ from master_file_cayley import NewGroup
 import os
 import psutil
 import networkx as nx
-import matplotlib
-matplotlib.use('agg')
+#import matplotlib
+#matplotlib.use('agg')
 import matplotlib.pyplot as plt
 
 process = psutil.Process(os.getpid())
@@ -34,10 +34,18 @@ bbbbbb = Word([b, b, b, b, b, b])
 bbb = Word([b, b, b])
 ababab = Word([a, b, a, b, a, b])
 abab = Word([a, b, a, b])
+aB = Word([a, B])
+aBa = Word([a, B, a])
+baB = Word([b, a, B])
+Bab = Word([B, a, b])
+aba = Word([a, b, a])
+Ba = Word([B, a])
+B_word = Word([B])
+ba = Word([b, a])
 
 denom = int(input("denominator? numbers only please "))
-group = str(input("what group is this? i.e. g2, g3, etc. "))
-version_num = str(input("what version i.e. 1, 2, etc. "))
+# group = str(input("what group is this? i.e. g2, g3, etc. "))
+# version_num = str(input("what version i.e. 1, 2, etc. "))
 
 G = NewGroup([a, b], [aa, bbbbbb, aA, bB, abAB], denom)
 
@@ -45,7 +53,7 @@ H = nx.Graph()
 
 elements = [identity]
 
-yielding_elts = G.yield_elems_of_quotient(4, denom)
+yielding_elts = [a_word, b_word, ab, aB, aBa, baB, Bab, aba, Ba, B_word, ba]
 
 color_list = ['b', 'r', 'c', 'm', 'y', 'k']
 
@@ -99,7 +107,7 @@ print(str(H.number_of_edges()) + " is the number of edges")
 #     print(node)
 # for (u, v) in edges:
 #     print(u.return_word_str(), v.return_word_str())
-imagename = "ngroup.cayley." + group + ".(4," + str(denom) + ") - " + version_num + ".png"
+# imagename = "ngroup.cayley." + group + ".(4," + str(denom) + ") - " + version_num + ".png"
 
 # plt.savefig(imagename)
-# plt.show()
+plt.show()
