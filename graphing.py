@@ -7,6 +7,7 @@ import networkx as nx
 #import matplotlib
 #matplotlib.use('agg')
 import matplotlib.pyplot as plt
+import pickle
 
 process = psutil.Process(os.getpid())
 
@@ -47,8 +48,7 @@ denom = int(input("denominator? numbers only please "))
 # group = str(input("what group is this? i.e. g2, g3, etc. "))
 # version_num = str(input("what version i.e. 1, 2, etc. "))
 
-G = NewGroup([a, b], [aa, bbbbbb, aA, bB, abAB], denom)
-
+G = NewGroup([a, b], [aa, bbb, aA, bB, ababab], denom)
 H = nx.Graph()
 
 elements = [identity]
