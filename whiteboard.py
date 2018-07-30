@@ -174,10 +174,15 @@ class Cayley:
 
         edges = self._graph.edges()
         colors = [self._graph[u][v]['color'] for u,v in edges]
+        print(colors)
         i = 0
         for (u, v) in edges:
-            graphviz_output.edge(u, v, colors[i])
+            print(i)
+            graphviz_output.edge(u.return_word_str(), v.return_word_str(), colors[i])
             i = i+1
+
+        print(graphviz_output.source)
+        # graphviz_output.render('test_output/group_cayley_output.gv')
 
 
 num = int(input("Max num? "))
@@ -198,15 +203,15 @@ bB = Word([b, B])
 bb = Word([b, b])
 abAB = Word([a, b, A, B])
 bbbbbb = Word([b, b, b, b, b, b])
+#
+# G = NewGroup([a, b], [aa, bbbbbb, aA, bB, abAB], num)
+#
+# newCayley = Cayley()
+#
+# newCayley.read_newgraph(G)
+# newCayley.draw()
 
-G = NewGroup([a, b], [aa, bbbbbb, aA, bB, abAB], num)
 
-newCayley = Cayley()
-
-newCayley.read_newgraph(G)
-newCayley.draw()
-
-
-# secondCayley = Cayley()
-# secondCayley.feed_pickle()
-# secondCayley.export_gv()
+secondCayley = Cayley()
+secondCayley.read_pickle('pickles/graph_g2_4.12.txt')
+secondCayley.export_gv()
