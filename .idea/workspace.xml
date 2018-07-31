@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="3:50&#10;changes to output_gv">
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="2:17&#10;&#10;running and saving on vlad pt 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphing.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,15 +21,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="270" />
+          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="Python" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="270" />
-          <entry key="txt" value="25" />
+          <entry key="py" value="307" />
+          <entry key="txt" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3321">
-              <caret line="668" column="18" selection-start-line="668" selection-start-column="18" selection-end-line="668" selection-end-column="18" />
+            <state relative-caret-position="-4410">
+              <caret line="602" column="10" selection-start-line="602" selection-start-column="10" selection-end-line="602" selection-end-column="10" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#94#3083#0" />
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/whiteboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="45" selection-start-line="45" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="550">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -73,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="112">
+              <caret line="91" column="65" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="65" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -105,11 +104,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print</find>
       <find>add_</find>
       <find>add_w</find>
       <find>test_equals</find>
       <find>test</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,8 +120,8 @@
         <option value="$PROJECT_DIR$/drawing board.py" />
         <option value="$PROJECT_DIR$/old code/group_with_cache.py" />
         <option value="$PROJECT_DIR$/drawing_board.py" />
-        <option value="$PROJECT_DIR$/master_file_cayley.py" />
         <option value="$PROJECT_DIR$/whiteboard.py" />
+        <option value="$PROJECT_DIR$/master_file_cayley.py" />
         <option value="$PROJECT_DIR$/graphing.py" />
       </list>
     </option>
@@ -178,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.whiteboard">
+  <component name="RunManager" selected="Python.graphing">
     <configuration name="drawing_board" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,8 +248,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.whiteboard" />
         <item itemvalue="Python.graphing" />
+        <item itemvalue="Python.whiteboard" />
         <item itemvalue="Python.drawing_board" />
       </list>
     </recent_temporary>
@@ -364,7 +363,28 @@
       <option name="project" value="LOCAL" />
       <updated>1532983856675</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2:11&#10;&#10;running and saving on vlad">
+      <created>1533064341171</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1533064341171</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2:14&#10;&#10;running and saving on vlad pt 2">
+      <created>1533064453843</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1533064453843</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2:17&#10;&#10;running and saving on vlad pt 3">
+      <created>1533064654526</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1533064654526</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -376,7 +396,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,7 +455,10 @@
     <MESSAGE value="3:22 &#10;trying to print G4 without extraneous nodes/edges" />
     <MESSAGE value="4:48&#10;same - trying to print G4 without extraneous nodes/edges" />
     <MESSAGE value="3:50&#10;changes to output_gv" />
-    <option name="LAST_COMMIT_MESSAGE" value="3:50&#10;changes to output_gv" />
+    <MESSAGE value="2:11&#10;&#10;running and saving on vlad" />
+    <MESSAGE value="2:14&#10;&#10;running and saving on vlad pt 2" />
+    <MESSAGE value="2:17&#10;&#10;running and saving on vlad pt 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="2:17&#10;&#10;running and saving on vlad pt 3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/drawing board.py" />
@@ -494,10 +517,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/drawing_board.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5454">
+          <caret line="212" column="56" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whiteboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3321">
-          <caret line="668" column="18" selection-start-line="668" selection-start-column="18" selection-end-line="668" selection-end-column="18" />
+        <state relative-caret-position="-4410">
+          <caret line="602" column="10" selection-start-line="602" selection-start-column="10" selection-end-line="602" selection-end-column="10" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#94#3083#0" />
@@ -512,30 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drawing_board.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5454">
-          <caret line="212" column="56" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whiteboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="45" selection-start-line="45" selection-end-line="48" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="112">
+          <caret line="91" column="65" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="65" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
