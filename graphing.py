@@ -5,10 +5,10 @@ import os
 import psutil
 import networkx as nx
 import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 # import pickle
 
-matplotlib.use('agg')
 
 process = psutil.Process(os.getpid())
 
@@ -88,8 +88,10 @@ nx.draw(H, pos, **options, labels=word_labels, edge_color=colors)
 
 numbers = open("testfile6.txt", 'w')
 
-numbers.write(str(H.number_of_nodes()) + " is the number of nodes")
+numbers.write(str(H.number_of_nodes()) + " is the number of nodes\n")
 numbers.write(str(H.number_of_edges()) + " is the number of edges")
+
+numbers.close()
 
 # for node in nodes:
 #     print(node)
