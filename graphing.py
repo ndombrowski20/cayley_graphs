@@ -4,15 +4,13 @@ from master_file_cayley import NewGroup
 import os
 import psutil
 import networkx as nx
-#import matplotlib
-#matplotlib.use('agg')
+import matplotlib
 import matplotlib.pyplot as plt
-import pickle
+# import pickle
+
+matplotlib.use('agg')
 
 process = psutil.Process(os.getpid())
-
-
-print(process.memory_info().rss / 10 ** 6)
 
 a = Letter("a")
 b = Letter("b")
@@ -44,45 +42,33 @@ Ba = Word([B, a])
 B_word = Word([B])
 ba = Word([b, a])
 
-denom = int(input("denominator? numbers only please "))
-# group = str(input("what group is this? i.e. g2, g3, etc. "))
-# version_num = str(input("what version i.e. 1, 2, etc. "))
-
-G = NewGroup([a, b], [aa, bbb, aA, bB, ababab], denom)
+G = NewGroup([a, b], [aa, bbb, aA, bB, ababab], 6)
 H = nx.Graph()
 
 elements = [identity]
 
-yielding_elts = [a_word, b_word, ab, aB, aBa, baB, Bab, aba, Ba, B_word, ba]
+non_e_elements = G.yield_elems_of_quotient(4, 6)
+for entry in non_e_elements:
+    elements.append(entry)
 
 color_list = ['b', 'r', 'c', 'm', 'y', 'k']
-
-for entry in yielding_elts:
-    elements.append(entry)
-    # print(entry)
 
 i = 0
 
 generators = G.list_non_inv_generators()
 
-# print(generators)
-
 for member in elements:
-    # print(member)
     for j in range(len(generators)):
         gen_letter = generators[j]
         elem_with_letter = Word([])
         elem_with_letter.add_word(member)
         elem_with_letter.add_letter(gen_letter)
         for member_2 in elements:
-            if G.test_equals(elem_with_letter, member_2, denom):
-                # print(member.return_word_str() + " is connected to " + member_2.return_word_str() +
-                #       " by " + gen_letter.get_str())
+            if G.test_equals(elem_with_letter, member_2, 6):
                 H.add_edges_from([(member, member_2)], color=color_list[j])
                 break
 
     i = i + 1
-    # print(str(i) + " out of " + str(len(elements)) + " completed \n")
 
 nodes = H.nodes()
 word_labels = {}
@@ -100,14 +86,15 @@ pos = nx.spring_layout(H)
 
 nx.draw(H, pos, **options, labels=word_labels, edge_color=colors)
 
-print(str(H.number_of_nodes()) + " is the number of nodes")
-print(str(H.number_of_edges()) + " is the number of edges")
+numbers = open("testfile6.txt", 'w')
+
+numbers.write(str(H.number_of_nodes()) + " is the number of nodes")
+numbers.write(str(H.number_of_edges()) + " is the number of edges")
 
 # for node in nodes:
 #     print(node)
 # for (u, v) in edges:
 #     print(u.return_word_str(), v.return_word_str())
-# imagename = "ngroup.cayley." + group + ".(4," + str(denom) + ") - " + version_num + ".png"
+imagename = "testing6.png"
 
-# plt.savefig(imagename)
-plt.show()
+plt.savefig(imagename)

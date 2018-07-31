@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="12:43&#10;adding pickles?">
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="3:50&#10;changes to output_gv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphing.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +15,22 @@
     <session id="311973346">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="172" />
+          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="Python" value="270" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="172" />
+          <entry key="py" value="270" />
+          <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open" />
@@ -55,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/whiteboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="215" column="42" selection-start-line="215" selection-start-column="42" selection-end-line="215" selection-end-column="42" />
+            <state relative-caret-position="280">
+              <caret line="45" selection-start-line="45" selection-end-line="48" selection-end-column="34" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -67,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-638">
-              <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+            <state relative-caret-position="658">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -119,8 +122,8 @@
         <option value="$PROJECT_DIR$/old code/group_with_cache.py" />
         <option value="$PROJECT_DIR$/drawing_board.py" />
         <option value="$PROJECT_DIR$/master_file_cayley.py" />
-        <option value="$PROJECT_DIR$/graphing.py" />
         <option value="$PROJECT_DIR$/whiteboard.py" />
+        <option value="$PROJECT_DIR$/graphing.py" />
       </list>
     </option>
   </component>
@@ -136,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,18 +357,26 @@
       <option name="project" value="LOCAL" />
       <updated>1532728114564</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="3:50&#10;changes to output_gv">
+      <created>1532983856675</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532983856675</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="1072" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,7 +434,8 @@
     <MESSAGE value="11:57&#10;again, hoping to help vlad get there" />
     <MESSAGE value="3:22 &#10;trying to print G4 without extraneous nodes/edges" />
     <MESSAGE value="4:48&#10;same - trying to print G4 without extraneous nodes/edges" />
-    <option name="LAST_COMMIT_MESSAGE" value="4:48&#10;same - trying to print G4 without extraneous nodes/edges" />
+    <MESSAGE value="3:50&#10;changes to output_gv" />
+    <option name="LAST_COMMIT_MESSAGE" value="3:50&#10;changes to output_gv" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/drawing board.py" />
@@ -510,20 +522,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphing.py">
+    <entry file="file://$PROJECT_DIR$/whiteboard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
-          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+        <state relative-caret-position="280">
+          <caret line="45" selection-start-line="45" selection-end-line="48" selection-end-column="34" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/whiteboard.py">
+    <entry file="file://$PROJECT_DIR$/graphing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="215" column="42" selection-start-line="215" selection-start-column="42" selection-end-line="215" selection-end-column="42" />
+        <state relative-caret-position="658">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
