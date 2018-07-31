@@ -672,7 +672,6 @@ class NewGroup:
             newly_added = []
             coset_producer = _iterate_with_words(coset_trie, self._relator_list,
                                                  expand_me, newly_added, max_length)
-            print("Now adding expansions for " + str(len(expand_me)) + " words")
             for member in coset_producer:
                 yield member
 
@@ -803,9 +802,9 @@ class NewGroup:
                     admitted = False
                     break
 
-            print("this took %s seconds \n" % (round(time.time() - start_time, 3)))
+            # print("this took %s seconds \n" % (round(time.time() - start_time, 3)))
             i = i+1
-            print(str(i) + " of " + str(total - 1) + " completed")
+            # print(str(i) + " of " + str(total - 1) + " completed")
 
             if admitted:
                 # print("made it \n")
@@ -814,10 +813,10 @@ class NewGroup:
                 # print(process.memory_info().rss / 10 ** 6)
                 yield a_word
 
-        print("Overall time: %s seconds" % (round(time.time() - overall_start_time, 3)))
-        print("There are " + str(len(elem_of_quotient)) + " entries")
-        print("memory use:")
-        print(process.memory_info().rss / 10 ** 6)
+        # print("Overall time: %s seconds" % (round(time.time() - overall_start_time, 3)))
+        # print("There are " + str(len(elem_of_quotient)) + " entries")
+        # print("memory use:")
+        # print(process.memory_info().rss / 10 ** 6)
 
     def list_generators(self):
         # this returns all of the generators in a list. This is done so that when the
