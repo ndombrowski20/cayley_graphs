@@ -212,6 +212,6 @@ bbbbbb = Word([b, b, b, b, b, b])
 # newCayley.draw()
 
 
-secondCayley = Cayley()
-secondCayley.read_pickle('pickles/graph_g2_4.12.txt')
-secondCayley.export_gv()
+# secondCayley = Cayley()
+# secondCayley.read_pickle('pickles/graph_g2_4.12.txt')
+# secondCayley.export_gv()

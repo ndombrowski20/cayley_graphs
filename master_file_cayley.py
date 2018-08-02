@@ -599,7 +599,7 @@ class NewGroup:
         for entry in self.yield_coset_new(identity, self._upper_limit):
             self._ncor.add_word(entry)
 
-        # print("construction time: % s seconds \n" % (round(time.time() - construction_start, 3)))
+        print("construction time: % s seconds \n" % (round(time.time() - construction_start, 3)))
         # print(process.memory_info().rss / 10 ** 6)
 
     def yield_coset_new(self, a_word, max_length):
