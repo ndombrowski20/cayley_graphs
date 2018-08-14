@@ -783,7 +783,7 @@ class NewGroup:
         for t in range(len_of_non_reduced + 1):
             total = total + 4**t
 
-        overall_start_time = time.time()
+        # overall_start_time = time.time()
         identity = Word([])
         elem_of_quotient = [identity]
 
@@ -792,7 +792,7 @@ class NewGroup:
         for a_word in freegroup_nonreduced:
             # print("I'm " + a_word.return_word_str())
             admitted = True
-            start_time = time.time()
+            # start_time = time.time()
 
             for existing_elem in elem_of_quotient:
                 # print("I'm being tested against " + existing_elem.return_word_str())
@@ -892,7 +892,7 @@ class Cayley:
                     if a_group.test_equals(elem_with_letter, member_2, num2):
                         # print(elem_with_letter.return_word_str() + " == " + member_2.return_word_str())
                         # print(member.return_word_str() + " is connected to " + member_2.return_word_str() +
-                              # " by " + gen_letter.get_str())
+                        # " by " + gen_letter.get_str())
                         self._graph.add_edges_from([(member, member_2)], color=color_list[j])
                         break
 
@@ -920,7 +920,7 @@ class Cayley:
         if not self._graph.nodes():
             raise Exception("there might be a problem, no nodes")
 
-    def read_pickle_group(self, a_str):
+    def read_pickle_group(self, a_str, numerator, denominator):
         # this allows for a cayley object to read in a group from a pickle
         # rather than having to generate the group every time. This massively
         # increases the efficiency for larger groups.
@@ -930,7 +930,7 @@ class Cayley:
             if not isinstance(a_group, NewGroup):
                 raise Exception("This didn't read in a group")
 
-        self.read_newgraph(a_group)
+        self.read_newgraph(a_group, numerator, denominator)
 
     def feed_pickle(self):
         # this takes a string input for the file name and feeds it to read pickle
@@ -967,7 +967,6 @@ class Cayley:
             imagename = "ngroup.cayley." + group + ".(4," + str(denom) + ") - " + version_num + ".png"
             plt.savefig(imagename)
 
-
         plt.subplot()
         nx.draw(self._graph, pos, **options, labels=word_labels, edge_color=colors)
         plt.show()
@@ -1001,7 +1000,7 @@ class Cayley:
             graphviz_output.node(node.return_word_str())
 
         edges = self._graph.edges()
-        colors = [self._graph[u][v]['color'] for u,v in edges]
+        colors = [self._graph[u][v]['color'] for u, v in edges]
         print(colors)
         i = 0
         for (u, v) in edges:
@@ -1053,4 +1052,3 @@ class Cayley:
         numbers.write(str(self._constr_time) + " is how long it took to build the graph\n")
 
         numbers.close()
-
