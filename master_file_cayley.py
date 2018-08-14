@@ -1,4 +1,5 @@
-import time, os, psutil, networkx as nx, pickle, matplotlib.pyplot as plt, graphviz
+import time, os, psutil, networkx as nx, pickle, matplotlib.pyplot as plt
+from graphviz import Digraph
 process = psutil.Process(os.getpid())
 
 
@@ -832,6 +833,18 @@ class NewGroup:
 
         return a_list
 
+    def list_relator_strings(self):
+        relator_list = []
+        for entry in self._relator_list:
+            relator_list.append(entry.return_word_str())
+        return relator_list
+
+    def list_generator_strings(self):
+        generator_list = []
+        for entry in self.list_non_inv_generators():
+            generator_list.append(entry.get_str())
+        return generator_list
+
 
 class Cayley:
     # the purpose of this class is to store the data from previously
@@ -840,9 +853,10 @@ class Cayley:
     # text that can be fed into different
     def __init__(self):
         self._paranoid = True
-        self._graph = nx.Graph()
+        self._graph = nx.DiGraph()
+        self._constr_time = 0
 
-    def read_newgraph(self, a_group):
+    def read_newgraph(self, a_group, num1, num2):
         # this is the same code i've been using to output all of the group graphics so far (so any and
         # all networkx/matplotlib graphics). i allowed for the user to input the numerator and denominator
         # as that would be simpler. the purpose of this class is in part to limit the computational effort
@@ -852,8 +866,7 @@ class Cayley:
             if not isinstance(a_group, NewGroup):
                 raise Exception("only groups with this method")
 
-        num1 = int(input("numerator? "))
-        num2 = int(input("denominator? "))
+        construction_start = time.time()
 
         color_list = ['b', 'r', 'c', 'm', 'y', 'k']
 
@@ -886,8 +899,8 @@ class Cayley:
             i = i + 1
             print(str(i) + " out of " + str(len(elements)) + " completed \n")
 
-        # print(str(self._graph.number_of_nodes()) + " is the number of nodes")
-        # print(str(self._graph.number_of_edges()) + " is the number of edges")
+        print(str(self._graph.number_of_nodes()) + " is the number of nodes")
+        print(str(self._graph.number_of_edges()) + " is the number of edges")
 
         pickel = input("Do you want me to pickle this graph? Y/N ")
         if pickel.lower() == 'y':
@@ -896,6 +909,8 @@ class Cayley:
         group_p = input("Do you want me to pickle this group? Y/N ")
         if group_p.lower() == "y":
             self.pickle_my_group(a_group)
+
+        self._constr_time = round(time.time() - construction_start, 3)
 
     def read_pickle(self, a_str):
         # this allows the user to input a pickle file for the graph rather
@@ -952,8 +967,6 @@ class Cayley:
             imagename = "ngroup.cayley." + group + ".(4," + str(denom) + ") - " + version_num + ".png"
             plt.savefig(imagename)
 
-        print(str(self._graph.number_of_nodes()) + " is the number of nodes")
-        print(str(self._graph.number_of_edges()) + " is the number of edges")
 
         plt.subplot()
         nx.draw(self._graph, pos, **options, labels=word_labels, edge_color=colors)
@@ -976,26 +989,68 @@ class Cayley:
         pickle.dump(self._graph, open(filename, 'wb'))
         print("saved to: " + filename)
 
-    # def export_gv(self):
-    #     if self._paranoid:
-    #         if not self._graph.nodes():
-    #             raise Exception("I need a graph first")
-    #
-    #     graphviz_output = Digraph()
-    #
-    #     nodes = self._graph.nodes()
-    #     for node in nodes:
-    #         graphviz_output.node(node.return_word_str())
-    #
-    #     edges = self._graph.edges()
-    #     colors = [self._graph[u][v]['color'] for u,v in edges]
-    #     print(colors)
-    #     i = 0
-    #     for (u, v) in edges:
-    #         print(i)
-    #         graphviz_output.edge(u.return_word_str(), v.return_word_str(), colors[i])
-    #         i = i+1
-    #
-    #     print(graphviz_output.source)
-    #     # graphviz_output.render('test_output/group_cayley_output.gv')
+    def export_gv(self):
+        if self._paranoid:
+            if not self._graph.nodes():
+                raise Exception("I need a graph first")
+
+        graphviz_output = Digraph()
+
+        nodes = self._graph.nodes()
+        for node in nodes:
+            graphviz_output.node(node.return_word_str())
+
+        edges = self._graph.edges()
+        colors = [self._graph[u][v]['color'] for u,v in edges]
+        print(colors)
+        i = 0
+        for (u, v) in edges:
+            print(i)
+            graphviz_output.edge(u.return_word_str(), v.return_word_str(), colors[i])
+            i = i+1
+
+        print(graphviz_output.source)
+        # graphviz_output.render('test_output/group_cayley_output.gv')
+
+    def for_saving(self):
+        # make a method for saving the image and the data on the image rather than outputting it to the console
+
+        # also include the memory and the runtime, and maybe even the group so that it can't be confused.
+
+        # i made methods that list the generators and relators in lists of strings
+
+        if self._paranoid:
+            if not self._graph.nodes():
+                raise Exception("There's nothing to save, you haven't populated me with a graph yet")
+
+        # word labels
+        word_labels = {}
+        for i in self._graph.nodes():
+            word_labels[i] = i.return_word_str()
+
+        # edge colors
+        edges = self._graph.edges()
+        colors = [self._graph[u][v]['color'] for u, v in edges]
+
+        options = {
+            'node_color': 'yellow',
+            'node_size': 400,
+        }
+
+        pos = nx.spring_layout(self._graph)
+
+        nx.draw(self._graph, pos, **options, labels=word_labels, edge_color=colors)
+
+        plt.savefig("savefigure.png")
+
+        numbers = open("savefile.txt", 'w')
+
+        # numbers.write(str( + " are the generators\n"))
+        # numbers.write(str( + " are the relators\n"))
+
+        numbers.write(str(self._graph.number_of_nodes()) + " is the number of nodes\n")
+        numbers.write(str(self._graph.number_of_edges()) + " is the number of edges\n")
+        numbers.write(str(self._constr_time) + " is how long it took to build the graph\n")
+
+        numbers.close()
 
