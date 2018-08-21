@@ -1,4 +1,5 @@
-import time, os, psutil, networkx as nx, pickle, matplotlib.pyplot as plt
+import time, os, psutil, networkx as nx, pickle
+# import matplotlib.pyplot as plt
 from graphviz import Digraph
 process = psutil.Process(os.getpid())
 
