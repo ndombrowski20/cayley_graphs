@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="00:13&#10;&#10;fixing grammatical issues">
-      <change afterPath="$PROJECT_DIR$/for_vlad.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_vlad.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_vlad.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +41,8 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,14 +57,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2567" />
+          <entry key="py" value="2675" />
           <entry key="txt" value="412" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="412" />
-          <entry key="Python" value="2567" />
+          <entry key="Python" value="2675" />
         </counts>
       </usages-collector>
     </session>
@@ -74,12 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23113">
-              <caret line="797" column="86" selection-start-line="797" selection-start-column="86" selection-end-line="797" selection-end-column="86" />
-              <folding>
-                <element signature="e#0#73#0" expanded="true" />
-                <marker date="1534219988127" expanded="true" signature="42356:42365" ph="..." />
-              </folding>
+            <state relative-caret-position="23055">
+              <caret line="797" column="50" selection-start-line="797" selection-start-column="50" selection-end-line="797" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -88,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/whiteboard.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -99,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="101" column="22" lean-forward="true" selection-start-line="44" selection-end-line="101" selection-end-column="22" />
+            <state relative-caret-position="2175">
+              <caret line="75" column="40" lean-forward="true" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -111,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/for_vlad.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1262">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="653">
+              <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -477,7 +473,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="102" y="35" width="2778" height="1765" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15727872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -572,6 +567,13 @@
     <entry file="file://$PROJECT_DIR$/pickles/stupid.txt" />
     <entry file="file://$PROJECT_DIR$/pickles/no_time.txt" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/encodings/cp1252.py" />
+    <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23055">
+          <caret line="797" column="50" selection-start-line="797" selection-start-column="50" selection-end-line="797" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scratch_paper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
@@ -592,21 +594,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23113">
-          <caret line="797" column="86" selection-start-line="797" selection-start-column="86" selection-end-line="797" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-            <marker date="1534219988127" expanded="true" signature="42356:42365" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/whiteboard.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
@@ -615,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="101" column="22" lean-forward="true" selection-start-line="44" selection-end-line="101" selection-end-column="22" />
+        <state relative-caret-position="2175">
+          <caret line="75" column="40" lean-forward="true" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -625,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/for_vlad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1262">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="653">
+          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>

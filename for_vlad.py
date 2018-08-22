@@ -5,9 +5,11 @@ import psutil
 import networkx as nx
 import matplotlib
 matplotlib.use('agg')
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import time
 
 process = psutil.Process(os.getpid())
+start_time = time.time()
 
 a = Letter("a")
 b = Letter("b")
@@ -79,6 +81,7 @@ numbers = open("three_gens_info.txt", 'w')
 
 numbers.write(str(H.number_of_nodes()) + " is the number of nodes\n")
 numbers.write(str(H.number_of_edges()) + " is the number of edges\n")
+numbers.write(str("Run time = " + str(time.time() - start_time)))
 
 numbers.close()
 
