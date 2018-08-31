@@ -1,12 +1,15 @@
-from master_file_cayley import Letter, Word, NewGroup, Cayley
-
+from master_file_cayley import Letter
+from master_file_cayley import Word
+from master_file_cayley import NewGroup
 import os
 import psutil
 import networkx as nx
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
+# import pickle
 import time
+
 
 process = psutil.Process(os.getpid())
 start_time = time.time()
@@ -15,30 +18,38 @@ a = Letter("a")
 b = Letter("b")
 A = Letter("A")
 B = Letter("B")
-c = Letter("c")
-C = Letter("C")
 
 identity = Word([])
+
+a_word = Word([a])
+b_word = Word([b])
+
 aa = Word([a, a])
 aA = Word([a, A])
 bB = Word([b, B])
-cC = Word([c, C])
-
-ababab = Word([a, b, a, b, a, b])
-bbb = Word([b, b, b])
-
 bb = Word([b, b])
-cc = Word([c, c])
+ab = Word([a, b])
 abAB = Word([a, b, A, B])
-bcBC = Word([b, c, B, C])
-caCA = Word([c, a, C, A])
+aaaa = Word([a, a, a, a])
+bbbbbb = Word([b, b, b, b, b, b])
+bbb = Word([b, b, b])
+ababab = Word([a, b, a, b, a, b])
+abab = Word([a, b, a, b])
+aB = Word([a, B])
+aBa = Word([a, B, a])
+baB = Word([b, a, B])
+Bab = Word([B, a, b])
+aba = Word([a, b, a])
+Ba = Word([B, a])
+B_word = Word([B])
+ba = Word([b, a])
 
-G = NewGroup([a, b, c], [aa, bb, cc, aA, bB, cC, abAB, bcBC, caCA], 10)
+G = NewGroup([a, b], [aa, bbb, aA, bB, ababab], 12)
 H = nx.DiGraph()
 
 elements = [identity]
 
-non_e_elements = G.yield_elems_of_quotient(4, 14)
+non_e_elements = G.yield_elems_of_quotient(4, 12)
 for entry in non_e_elements:
     elements.append(entry)
 
@@ -55,7 +66,7 @@ for member in elements:
         elem_with_letter.add_word(member)
         elem_with_letter.add_letter(gen_letter)
         for member_2 in elements:
-            if G.test_equals(elem_with_letter, member_2, 14):
+            if G.test_equals(elem_with_letter, member_2, 12):
                 H.add_edges_from([(member, member_2)], color=color_list[j])
                 break
 
@@ -77,7 +88,7 @@ pos = nx.spring_layout(H)
 
 nx.draw(H, pos, **options, labels=word_labels, edge_color=colors)
 
-numbers = open("three_gens_info.txt", 'w')
+numbers = open("g4_4_12.txt", 'w')
 
 numbers.write(str(H.number_of_nodes()) + " is the number of nodes\n")
 numbers.write(str(H.number_of_edges()) + " is the number of edges\n")
@@ -89,6 +100,6 @@ numbers.close()
 #     print(node)
 # for (u, v) in edges:
 #     print(u.return_word_str(), v.return_word_str())
-imagename = "three_gens_graph.png"
+imagename = "g4_4_12.png"
 
 plt.savefig(imagename)
