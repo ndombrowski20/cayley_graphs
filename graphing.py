@@ -88,7 +88,7 @@ pos = nx.spring_layout(H)
 
 nx.draw(H, pos, **options, labels=word_labels, edge_color=colors)
 
-numbers = open("g4_4_10.txt", 'w')
+numbers = open("products/g4_4_10.txt", 'w')
 
 numbers.write(str(H.number_of_nodes()) + " is the number of nodes\n")
 numbers.write(str(H.number_of_edges()) + " is the number of edges\n")
@@ -100,6 +100,6 @@ numbers.close()
 #     print(node)
 # for (u, v) in edges:
 #     print(u.return_word_str(), v.return_word_str())
-imagename = "g4_4_10.png"
+imagename = "products/g4_4_10.png"
 
 plt.savefig(imagename)
