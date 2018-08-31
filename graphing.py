@@ -8,9 +8,11 @@ import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
 # import pickle
+import time
 
 
 process = psutil.Process(os.getpid())
+start_time = time.time()
 
 a = Letter("a")
 b = Letter("b")
@@ -42,12 +44,12 @@ Ba = Word([B, a])
 B_word = Word([B])
 ba = Word([b, a])
 
-G = NewGroup([a, b], [aa, bbb, aA, bB, ababab], 14)
-H = nx.Graph()
+G = NewGroup([a, b], [aa, bbb, aA, bB, ababab], 8)
+H = nx.DiGraph()
 
 elements = [identity]
 
-non_e_elements = G.yield_elems_of_quotient(4, 14)
+non_e_elements = G.yield_elems_of_quotient(4, 8)
 for entry in non_e_elements:
     elements.append(entry)
 
@@ -64,7 +66,7 @@ for member in elements:
         elem_with_letter.add_word(member)
         elem_with_letter.add_letter(gen_letter)
         for member_2 in elements:
-            if G.test_equals(elem_with_letter, member_2, 14):
+            if G.test_equals(elem_with_letter, member_2, 8):
                 H.add_edges_from([(member, member_2)], color=color_list[j])
                 break
 
@@ -86,10 +88,11 @@ pos = nx.spring_layout(H)
 
 nx.draw(H, pos, **options, labels=word_labels, edge_color=colors)
 
-numbers = open("testfile14.txt", 'w')
+numbers = open("g4_4_8.txt", 'w')
 
 numbers.write(str(H.number_of_nodes()) + " is the number of nodes\n")
 numbers.write(str(H.number_of_edges()) + " is the number of edges\n")
+numbers.write(str("Run time = " + str(time.time() - start_time)))
 
 numbers.close()
 
@@ -97,6 +100,6 @@ numbers.close()
 #     print(node)
 # for (u, v) in edges:
 #     print(u.return_word_str(), v.return_word_str())
-imagename = "testing14.png"
+imagename = "g4_4_8.png"
 
 plt.savefig(imagename)

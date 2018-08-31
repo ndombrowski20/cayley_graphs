@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="00:13&#10;&#10;fixing grammatical issues">
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="17:12 &#10;&#10;changes to stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_vlad.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_vlad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphing.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +38,11 @@
     <session id="1176770686">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,14 +57,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2675" />
-          <entry key="txt" value="412" />
+          <entry key="py" value="2703" />
+          <entry key="txt" value="566" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="412" />
-          <entry key="Python" value="2675" />
+          <entry key="PLAIN_TEXT" value="566" />
+          <entry key="Python" value="2703" />
         </counts>
       </usages-collector>
     </session>
@@ -74,8 +74,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23055">
-              <caret line="797" column="50" selection-start-line="797" selection-start-column="50" selection-end-line="797" selection-end-column="50" />
+            <state relative-caret-position="29">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#169#3158#0" />
+                <element signature="e#3177#9562#0" />
+                <element signature="e#9580#13266#0" />
+                <element signature="e#13289#15810#0" />
+                <element signature="e#15830#20582#0" />
+                <element signature="e#20607#21318#0" />
+                <element signature="e#21341#35711#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/whiteboard.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -92,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2175">
-              <caret line="75" column="40" lean-forward="true" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+            <state relative-caret-position="450">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -104,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/for_vlad.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            <state relative-caret-position="-1595">
+              <caret line="11" column="2" selection-start-line="11" selection-end-line="12" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -167,11 +176,11 @@
         <option value="$PROJECT_DIR$/drawing board.py" />
         <option value="$PROJECT_DIR$/old code/group_with_cache.py" />
         <option value="$PROJECT_DIR$/drawing_board.py" />
-        <option value="$PROJECT_DIR$/graphing.py" />
         <option value="$PROJECT_DIR$/scratch_paper.py" />
         <option value="$PROJECT_DIR$/whiteboard.py" />
-        <option value="$PROJECT_DIR$/master_file_cayley.py" />
         <option value="$PROJECT_DIR$/for_vlad.py" />
+        <option value="$PROJECT_DIR$/master_file_cayley.py" />
+        <option value="$PROJECT_DIR$/graphing.py" />
       </list>
     </option>
   </component>
@@ -468,13 +477,28 @@
       <option name="project" value="LOCAL" />
       <updated>1534220015079</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="17:12 &#10;&#10;changes to stuff">
+      <created>1534972485007</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1534972485007</updated>
+    </task>
+    <task id="LOCAL-00022" summary="10:00&#10;&#10;changing master_file back. might separate all of the classes into different files pretty soon. this is annoying">
+      <created>1535724050918</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1535724050918</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="102" y="35" width="2778" height="1765" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15727872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15727872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -486,13 +510,23 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32932532" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003658" side_tool="true" weight="0.3279893" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -544,7 +578,9 @@
     <MESSAGE value="22:00 &#10;&#10;changed masterfile so that it will have Cayley. Whiteboard is moving over to be used to make the DiCayley class." />
     <MESSAGE value="00:06&#10;&#10;i'm an idiot and i changed some stuff back to how they should be and changed the cayley class to just work with digraphs because i'm once again an idiot and didn't realize i could do that the whole time" />
     <MESSAGE value="00:13&#10;&#10;fixing grammatical issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="00:13&#10;&#10;fixing grammatical issues" />
+    <MESSAGE value="17:12 &#10;&#10;changes to stuff" />
+    <MESSAGE value="10:00&#10;&#10;changing master_file back. might separate all of the classes into different files pretty soon. this is annoying" />
+    <option name="LAST_COMMIT_MESSAGE" value="10:00&#10;&#10;changing master_file back. might separate all of the classes into different files pretty soon. this is annoying" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/drawing board.py" />
@@ -567,13 +603,6 @@
     <entry file="file://$PROJECT_DIR$/pickles/stupid.txt" />
     <entry file="file://$PROJECT_DIR$/pickles/no_time.txt" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/encodings/cp1252.py" />
-    <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23055">
-          <caret line="797" column="50" selection-start-line="797" selection-start-column="50" selection-end-line="797" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scratch_paper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
@@ -594,32 +623,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#169#3158#0" />
+            <element signature="e#3177#9562#0" />
+            <element signature="e#9580#13266#0" />
+            <element signature="e#13289#15810#0" />
+            <element signature="e#15830#20582#0" />
+            <element signature="e#20607#21318#0" />
+            <element signature="e#21341#35711#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/whiteboard.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphing.py">
+    <entry file="file://$PROJECT_DIR$/for_vlad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="75" column="40" lean-forward="true" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+        <state relative-caret-position="-1595">
+          <caret line="11" column="2" selection-start-line="11" selection-end-line="12" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/for_vlad.py">
+    <entry file="file://$PROJECT_DIR$/graphing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
