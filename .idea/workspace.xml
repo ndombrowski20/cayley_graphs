@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="10:31&#10;&#10;for_vlad is gonna be used for g4 4_12">
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="10:41&#10;&#10;making a directory for the files to save into so that the organization is better">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_vlad.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_vlad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphing.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/g4_4_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/g4_4_10.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,12 +59,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="2790" />
-          <entry key="txt" value="839" />
+          <entry key="txt" value="934" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="839" />
+          <entry key="PLAIN_TEXT" value="934" />
           <entry key="Python" value="2790" />
         </counts>
       </usages-collector>
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="98" column="20" lean-forward="true" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+            <state relative-caret-position="711">
+              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -113,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/for_vlad.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
@@ -519,11 +519,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535725905870</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="10:41&#10;&#10;making a directory for the files to save into so that the organization is better">
+      <created>1535726633591</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1535726633591</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="35" width="2778" height="1765" extended-state="6" />
+    <frame x="102" y="35" width="2778" height="1765" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15727872" />
@@ -586,7 +593,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed space" />
     <MESSAGE value="2:51&#10;for testing on vlad, graphing was changed&#10;whiteboard is still being changed for the cayley class" />
     <MESSAGE value="3:58&#10;stupid fix to tkinter error -- use.('agg')" />
     <MESSAGE value="11:27&#10;I added parts to the Cayley class that allows me to save the group as well so that I wouldn't have to read in large group files every time." />
@@ -611,7 +617,8 @@
     <MESSAGE value="10:15&#10;&#10;same as before, but changing master_file i guess" />
     <MESSAGE value="10:23&#10;&#10;now g4 4_10" />
     <MESSAGE value="10:31&#10;&#10;for_vlad is gonna be used for g4 4_12" />
-    <option name="LAST_COMMIT_MESSAGE" value="10:31&#10;&#10;for_vlad is gonna be used for g4 4_12" />
+    <MESSAGE value="10:41&#10;&#10;making a directory for the files to save into so that the organization is better" />
+    <option name="LAST_COMMIT_MESSAGE" value="10:41&#10;&#10;making a directory for the files to save into so that the organization is better" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/drawing board.py" />
@@ -679,20 +686,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphing.py">
+    <entry file="file://$PROJECT_DIR$/for_vlad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="98" column="20" lean-forward="true" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        <state relative-caret-position="305">
+          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/for_vlad.py">
+    <entry file="file://$PROJECT_DIR$/graphing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+        <state relative-caret-position="711">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
