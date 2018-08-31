@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="17:12 &#10;&#10;changes to stuff">
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="10:15&#10;&#10;same as before, but changing master_file i guess">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphing.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,25 +56,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2703" />
-          <entry key="txt" value="566" />
+          <entry key="py" value="2735" />
+          <entry key="txt" value="773" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="566" />
-          <entry key="Python" value="2703" />
+          <entry key="PLAIN_TEXT" value="773" />
+          <entry key="Python" value="2735" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
               <folding>
                 <element signature="e#169#3158#0" />
                 <element signature="e#3177#9562#0" />
@@ -101,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="232">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -179,8 +178,8 @@
         <option value="$PROJECT_DIR$/scratch_paper.py" />
         <option value="$PROJECT_DIR$/whiteboard.py" />
         <option value="$PROJECT_DIR$/for_vlad.py" />
-        <option value="$PROJECT_DIR$/master_file_cayley.py" />
         <option value="$PROJECT_DIR$/graphing.py" />
+        <option value="$PROJECT_DIR$/master_file_cayley.py" />
       </list>
     </option>
   </component>
@@ -491,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535724050918</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="10:10&#10;&#10;changing this program so that it produces G4 with 4/8 as the limits. It will also print the run time for the program.">
+      <created>1535724670372</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1535724670372</updated>
+    </task>
+    <task id="LOCAL-00024" summary="10:15&#10;&#10;same as before, but changing master_file i guess">
+      <created>1535724932703</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1535724932703</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -580,7 +593,9 @@
     <MESSAGE value="00:13&#10;&#10;fixing grammatical issues" />
     <MESSAGE value="17:12 &#10;&#10;changes to stuff" />
     <MESSAGE value="10:00&#10;&#10;changing master_file back. might separate all of the classes into different files pretty soon. this is annoying" />
-    <option name="LAST_COMMIT_MESSAGE" value="10:00&#10;&#10;changing master_file back. might separate all of the classes into different files pretty soon. this is annoying" />
+    <MESSAGE value="10:10&#10;&#10;changing this program so that it produces G4 with 4/8 as the limits. It will also print the run time for the program." />
+    <MESSAGE value="10:15&#10;&#10;same as before, but changing master_file i guess" />
+    <option name="LAST_COMMIT_MESSAGE" value="10:15&#10;&#10;same as before, but changing master_file i guess" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/drawing board.py" />
@@ -623,22 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#169#3158#0" />
-            <element signature="e#3177#9562#0" />
-            <element signature="e#9580#13266#0" />
-            <element signature="e#13289#15810#0" />
-            <element signature="e#15830#20582#0" />
-            <element signature="e#20607#21318#0" />
-            <element signature="e#21341#35711#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/whiteboard.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -661,10 +660,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="232">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#169#3158#0" />
+            <element signature="e#3177#9562#0" />
+            <element signature="e#9580#13266#0" />
+            <element signature="e#13289#15810#0" />
+            <element signature="e#15830#20582#0" />
+            <element signature="e#20607#21318#0" />
+            <element signature="e#21341#35711#0" />
           </folding>
         </state>
       </provider>
