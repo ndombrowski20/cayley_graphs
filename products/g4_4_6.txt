@@ -1,3 +1,0 @@
-15 is the number of nodes
-21 is the number of edges
-Run time = 3.8052124977111816
