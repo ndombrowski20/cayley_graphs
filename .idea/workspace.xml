@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="12:08&#10;&#10;from g3 4_8 to g3 4_10">
-      <change beforePath="$PROJECT_DIR$/whiteboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/udemy_ml/ml_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cayley-graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cayley-graph.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,130 +14,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="311973346">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="71" />
-          <entry key="Python" value="307" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open" />
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="307" />
-          <entry key="txt" value="71" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open" />
-    </session>
-    <session id="1176770686">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="6" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="2826" />
-          <entry key="txt" value="1067" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1067" />
-          <entry key="Python" value="2826" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17458">
-              <caret line="602" column="10" selection-start-line="602" selection-start-column="10" selection-end-line="602" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/whiteboard.py">
+        <entry file="file://$PROJECT_DIR$/udemy_ml/ml_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+            <state relative-caret-position="211">
+              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2668">
-              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/for_vlad.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1131">
-              <caret line="45" selection-end-line="105" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scratch_paper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="89" lean-forward="true" selection-end-line="105" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drawing_board.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5597">
-              <caret line="203" column="25" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#48#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,14 +60,15 @@
         <option value="$PROJECT_DIR$/for_vlad.py" />
         <option value="$PROJECT_DIR$/scratch_paper.py" />
         <option value="$PROJECT_DIR$/whiteboard.py" />
+        <option value="$PROJECT_DIR$/udemy_ml/ml_3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1422" />
-    <option name="y" value="39" />
-    <option name="width" value="1448" />
-    <option name="height" value="1758" />
+    <option name="x" value="180" />
+    <option name="y" value="127" />
+    <option name="width" value="1080" />
+    <option name="height" value="625" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -191,8 +81,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="cayley_graphs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cayley_graphs" type="462c0819:PsiDirectoryNode" />
+              <item name="work_in_progress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_in_progress" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,6 +91,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -216,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.whiteboard">
+  <component name="RunManager" selected="Python.ml_3">
     <configuration name="drawing_board" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,6 +142,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ml_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cayley-graph" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/udemy_ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/udemy_ml/ml_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,9 +218,11 @@
       <item itemvalue="Python.graphing" />
       <item itemvalue="Python.drawing_board" />
       <item itemvalue="Python.scratch_paper" />
+      <item itemvalue="Python.ml_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ml_3" />
         <item itemvalue="Python.whiteboard" />
         <item itemvalue="Python.scratch_paper" />
         <item itemvalue="Python.graphing" />
@@ -548,22 +462,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="35" width="2778" height="1765" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="833" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15727872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117688514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963424" weight="0.3279893" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49963424" visible="true" weight="0.32793522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32932532" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32932532" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003658" side_tool="true" weight="0.3279893" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -606,9 +520,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12:21&#10;i hate this agg fix for matplotlib" />
@@ -647,71 +572,24 @@
     <entry file="file://$PROJECT_DIR$/../PycharmProjects/just_classes.py" />
     <entry file="file://$PROJECT_DIR$/../PycharmProjects/graphing.py" />
     <entry file="file://$PROJECT_DIR$/../PycharmProjects/iterable_groups.py" />
-    <entry file="file://$PROJECT_DIR$/old-code/group_with_cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="408" column="21" selection-start-line="408" selection-start-column="21" selection-end-line="408" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/old-code/group_with_cache.py" />
     <entry file="file://$PROJECT_DIR$/pickles/pickletest1.txt" />
     <entry file="file://$PROJECT_DIR$/pickles/bad_test.txt" />
     <entry file="file://$PROJECT_DIR$/pickles/stupid.txt" />
     <entry file="file://$PROJECT_DIR$/pickles/no_time.txt" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/encodings/cp1252.py" />
-    <entry file="file://$PROJECT_DIR$/master_file_cayley.py">
+    <entry file="file://$PROJECT_DIR$/master_file_cayley.py" />
+    <entry file="file://$PROJECT_DIR$/graphing.py" />
+    <entry file="file://$PROJECT_DIR$/for_vlad.py" />
+    <entry file="file://$PROJECT_DIR$/drawing_board.py" />
+    <entry file="file://$PROJECT_DIR$/scratch_paper.py" />
+    <entry file="file://$PROJECT_DIR$/whiteboard.py" />
+    <entry file="file://$PROJECT_DIR$/udemy_ml/ml_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17458">
-          <caret line="602" column="10" selection-start-line="602" selection-start-column="10" selection-end-line="602" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2668">
-          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        <state relative-caret-position="211">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_vlad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="45" selection-end-line="105" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drawing_board.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5597">
-          <caret line="203" column="25" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scratch_paper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="89" lean-forward="true" selection-end-line="105" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whiteboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#48#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
