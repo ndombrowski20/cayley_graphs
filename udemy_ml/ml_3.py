@@ -21,6 +21,7 @@ xv, yv = np.meshgrid(x, y)
 def f(first, second):
     return first*(second**2)
 
+
 z = f(xv, yv)
 
 # print(z)

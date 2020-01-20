@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="12:08&#10;&#10;from g3 4_8 to g3 4_10">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_ml/ml_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cayley-graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cayley-graph.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="udemy ML/AI folder added as well as the third project completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_ml/ml_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_ml/ml_3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/udemy_ml/ml_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+            <state relative-caret-position="357">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="e#48#58#0" expanded="true" />
               </folding>
@@ -64,11 +61,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="180" />
-    <option name="y" value="127" />
-    <option name="width" value="1080" />
-    <option name="height" value="625" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="833" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -458,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535731721843</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="udemy ML/AI folder added as well as the third project completed">
+      <created>1579542284063</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1579542284063</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="833" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117688514" />
@@ -470,14 +473,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49963424" visible="true" weight="0.32793522" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963424" weight="0.32793522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32932532" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32928476" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003658" side_tool="true" weight="0.3279893" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -536,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12:21&#10;i hate this agg fix for matplotlib" />
     <MESSAGE value="1:13&#10;changing g3 to g4" />
     <MESSAGE value="4:50&#10;Changed drawing board to have the ability to choose which group is being made so that i don't have to keep changing the group manually" />
     <MESSAGE value="10:41&#10;gonna try this on vlad to see if the extra print statements will help get his ass moving" />
@@ -561,7 +563,8 @@
     <MESSAGE value="11:30&#10;&#10;scratch_paper is being re-purposed in order to generate g3 4_6" />
     <MESSAGE value="11:34&#10;&#10;from g3 4_6 to g3 4_8" />
     <MESSAGE value="12:08&#10;&#10;from g3 4_8 to g3 4_10" />
-    <option name="LAST_COMMIT_MESSAGE" value="12:08&#10;&#10;from g3 4_8 to g3 4_10" />
+    <MESSAGE value="udemy ML/AI folder added as well as the third project completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="udemy ML/AI folder added as well as the third project completed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/drawing board.py" />
@@ -586,8 +589,8 @@
     <entry file="file://$PROJECT_DIR$/whiteboard.py" />
     <entry file="file://$PROJECT_DIR$/udemy_ml/ml_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+        <state relative-caret-position="357">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="e#48#58#0" expanded="true" />
           </folding>
