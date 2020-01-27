@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="udemy ML/AI folder added as well as the third project completed">
+      <change afterPath="$PROJECT_DIR$/ANNs/dombrowski_hw1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cayley-graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cayley-graph.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_ml/ml_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_ml/ml_3.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/udemy_ml/ml_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="e#48#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,65 +31,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/drawing board.py" />
-        <option value="$PROJECT_DIR$/old code/group_with_cache.py" />
-        <option value="$PROJECT_DIR$/drawing_board.py" />
-        <option value="$PROJECT_DIR$/master_file_cayley.py" />
-        <option value="$PROJECT_DIR$/graphing.py" />
-        <option value="$PROJECT_DIR$/for_vlad.py" />
-        <option value="$PROJECT_DIR$/scratch_paper.py" />
-        <option value="$PROJECT_DIR$/whiteboard.py" />
-        <option value="$PROJECT_DIR$/udemy_ml/ml_3.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="833" />
-  </component>
+  <component name="ProjectId" id="1Wzb2KIVXm0QGD42QG2f95du8Bt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="work_in_progress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work_in_progress" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.ml_3">
-    <configuration name="drawing_board" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dombrowski_hw1">
+    <configuration name="dombrowski_hw1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +52,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ANNs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drawing_board.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANNs/dombrowski_hw1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,17 +152,17 @@
     <list>
       <item itemvalue="Python.whiteboard" />
       <item itemvalue="Python.graphing" />
-      <item itemvalue="Python.drawing_board" />
       <item itemvalue="Python.scratch_paper" />
       <item itemvalue="Python.ml_3" />
+      <item itemvalue="Python.dombrowski_hw1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dombrowski_hw1" />
         <item itemvalue="Python.ml_3" />
         <item itemvalue="Python.whiteboard" />
         <item itemvalue="Python.scratch_paper" />
         <item itemvalue="Python.graphing" />
-        <item itemvalue="Python.drawing_board" />
       </list>
     </recent_temporary>
   </component>
@@ -464,30 +404,6 @@
     <option name="localTasksCounter" value="33" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="833" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117688514" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963424" weight="0.32793522" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32928476" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003658" side_tool="true" weight="0.3279893" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
       <list>
@@ -504,20 +420,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -566,37 +469,27 @@
     <MESSAGE value="udemy ML/AI folder added as well as the third project completed" />
     <option name="LAST_COMMIT_MESSAGE" value="udemy ML/AI folder added as well as the third project completed" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/drawing board.py" />
-    <entry file="file://$PROJECT_DIR$/../PycharmProjects/whiteboard.py" />
-    <entry file="file://$PROJECT_DIR$/../PycharmProjects/side_generators.py" />
-    <entry file="file://$PROJECT_DIR$/../PycharmProjects/master_file2.py" />
-    <entry file="file://$PROJECT_DIR$/../PycharmProjects/playing_around.py" />
-    <entry file="file://$PROJECT_DIR$/../PycharmProjects/just_classes.py" />
-    <entry file="file://$PROJECT_DIR$/../PycharmProjects/graphing.py" />
-    <entry file="file://$PROJECT_DIR$/../PycharmProjects/iterable_groups.py" />
-    <entry file="file://$PROJECT_DIR$/old-code/group_with_cache.py" />
-    <entry file="file://$PROJECT_DIR$/pickles/pickletest1.txt" />
-    <entry file="file://$PROJECT_DIR$/pickles/bad_test.txt" />
-    <entry file="file://$PROJECT_DIR$/pickles/stupid.txt" />
-    <entry file="file://$PROJECT_DIR$/pickles/no_time.txt" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/encodings/cp1252.py" />
-    <entry file="file://$PROJECT_DIR$/master_file_cayley.py" />
-    <entry file="file://$PROJECT_DIR$/graphing.py" />
-    <entry file="file://$PROJECT_DIR$/for_vlad.py" />
-    <entry file="file://$PROJECT_DIR$/drawing_board.py" />
-    <entry file="file://$PROJECT_DIR$/scratch_paper.py" />
-    <entry file="file://$PROJECT_DIR$/whiteboard.py" />
-    <entry file="file://$PROJECT_DIR$/udemy_ml/ml_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#48#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="697" height="215" key="GridCell.Tab.0.bottom" timestamp="1580157037684">
+      <screen x="0" y="27" width="1440" height="873" />
+    </state>
+    <state width="697" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580157037684" />
+    <state width="697" height="215" key="GridCell.Tab.0.center" timestamp="1580157037684">
+      <screen x="0" y="27" width="1440" height="873" />
+    </state>
+    <state width="697" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580157037684" />
+    <state width="697" height="215" key="GridCell.Tab.0.left" timestamp="1580157037684">
+      <screen x="0" y="27" width="1440" height="873" />
+    </state>
+    <state width="697" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580157037684" />
+    <state width="697" height="215" key="GridCell.Tab.0.right" timestamp="1580157037684">
+      <screen x="0" y="27" width="1440" height="873" />
+    </state>
+    <state width="697" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580157037684" />
+    <state x="0" y="82" width="1031" height="744" key="SettingsEditor" timestamp="1580155851428">
+      <screen x="0" y="27" width="1440" height="873" />
+    </state>
+    <state x="0" y="82" width="1031" height="744" key="SettingsEditor/0.27.1440.873@0.27.1440.873" timestamp="1580155851428" />
   </component>
   <component name="masterDetails">
     <states>
