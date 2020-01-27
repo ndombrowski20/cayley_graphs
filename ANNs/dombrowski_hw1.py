@@ -28,18 +28,21 @@ def angle_calc(x, y):
     return np.degrees(ans)
 
 
-# here n serves as the number of DIMENSIONS, and m is the number of PAIRS that will be generated
+# generate a normally distributed random vector.
 
 
-def generate_vectors(n, m):
-    print(n)
-    print(m)
+def generate_vector(n):
+    vector = []
+    for i in range(n):
+        vector.append(np.random.normal(100.0, 10))
+    return vector
+
 
 
 y = [1, 10, 15]
 z = [0, 1, 1]
 
-print(angle_calc(y, z))
+print(angle_calc(generate_vector(2), generate_vector(2)))
 
 
 L = np.random.normal(1.0, 0.005, 100)

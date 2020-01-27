@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="udemy ML/AI folder added as well as the third project completed">
-      <change afterPath="$PROJECT_DIR$/ANNs/dombrowski_hw1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cayley-graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cayley-graph.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="added an ANN folder so that I can access my assignments cross-platform">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANNs/dombrowski_hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ANNs/dombrowski_hw1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579542284063</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added an ANN folder so that I can access my assignments cross-platform">
+      <created>1580157498345</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1580157498345</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -442,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1:13&#10;changing g3 to g4" />
     <MESSAGE value="4:50&#10;Changed drawing board to have the ability to choose which group is being made so that i don't have to keep changing the group manually" />
     <MESSAGE value="10:41&#10;gonna try this on vlad to see if the extra print statements will help get his ass moving" />
     <MESSAGE value="11:57&#10;again, hoping to help vlad get there" />
@@ -467,29 +471,42 @@
     <MESSAGE value="11:34&#10;&#10;from g3 4_6 to g3 4_8" />
     <MESSAGE value="12:08&#10;&#10;from g3 4_8 to g3 4_10" />
     <MESSAGE value="udemy ML/AI folder added as well as the third project completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="udemy ML/AI folder added as well as the third project completed" />
+    <MESSAGE value="added an ANN folder so that I can access my assignments cross-platform" />
+    <option name="LAST_COMMIT_MESSAGE" value="added an ANN folder so that I can access my assignments cross-platform" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="697" height="215" key="GridCell.Tab.0.bottom" timestamp="1580157037684">
+    <state x="0" y="56" width="790" height="823" key="CommitChangelistDialog2" timestamp="1580157498261">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
-    <state width="697" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580157037684" />
-    <state width="697" height="215" key="GridCell.Tab.0.center" timestamp="1580157037684">
+    <state x="0" y="56" width="790" height="823" key="CommitChangelistDialog2/0.27.1440.873@0.27.1440.873" timestamp="1580157498261" />
+    <state width="693" height="215" key="GridCell.Tab.0.bottom" timestamp="1580158952317">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
-    <state width="697" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580157037684" />
-    <state width="697" height="215" key="GridCell.Tab.0.left" timestamp="1580157037684">
+    <state width="693" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
+    <state width="693" height="215" key="GridCell.Tab.0.center" timestamp="1580158952316">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
-    <state width="697" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580157037684" />
-    <state width="697" height="215" key="GridCell.Tab.0.right" timestamp="1580157037684">
+    <state width="693" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
+    <state width="693" height="215" key="GridCell.Tab.0.left" timestamp="1580158952316">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
-    <state width="697" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580157037684" />
+    <state width="693" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
+    <state width="693" height="215" key="GridCell.Tab.0.right" timestamp="1580158952317">
+      <screen x="0" y="27" width="1440" height="873" />
+    </state>
+    <state width="693" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
     <state x="0" y="82" width="1031" height="744" key="SettingsEditor" timestamp="1580155851428">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
     <state x="0" y="82" width="1031" height="744" key="SettingsEditor/0.27.1440.873@0.27.1440.873" timestamp="1580155851428" />
+    <state x="20" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1580158459818">
+      <screen x="0" y="27" width="1440" height="873" />
+    </state>
+    <state x="20" y="290" key="com.intellij.ide.util.TipDialog/0.27.1440.873@0.27.1440.873" timestamp="1580158459818" />
+    <state x="134" y="381" width="444" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580158787053">
+      <screen x="0" y="27" width="1440" height="873" />
+    </state>
+    <state x="134" y="381" width="444" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1440.873@0.27.1440.873" timestamp="1580158787053" />
   </component>
   <component name="masterDetails">
     <states>
