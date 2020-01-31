@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="added an ANN folder so that I can access my assignments cross-platform">
+      <change afterPath="$PROJECT_DIR$/ANNs/part1_n10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ANNs/part1_n100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ANNs/part1_n1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ANNs/part1_n2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cayley-graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cayley-graph.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ANNs/dombrowski_hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ANNs/dombrowski_hw1.py" afterDir="false" />
     </list>
@@ -30,13 +36,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Wzb2KIVXm0QGD42QG2f95du8Bt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -447,6 +457,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="4:50&#10;Changed drawing board to have the ability to choose which group is being made so that i don't have to keep changing the group manually" />
     <MESSAGE value="10:41&#10;gonna try this on vlad to see if the extra print statements will help get his ass moving" />
     <MESSAGE value="11:57&#10;again, hoping to help vlad get there" />
@@ -479,26 +490,35 @@
       <screen x="0" y="27" width="1440" height="873" />
     </state>
     <state x="0" y="56" width="790" height="823" key="CommitChangelistDialog2/0.27.1440.873@0.27.1440.873" timestamp="1580157498261" />
-    <state width="693" height="215" key="GridCell.Tab.0.bottom" timestamp="1580158952317">
-      <screen x="0" y="27" width="1440" height="873" />
+    <state x="504" y="300" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580423394507">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="504" y="300" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423394507" />
+    <state width="1377" height="260" key="GridCell.Tab.0.bottom" timestamp="1580428846604">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="693" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
-    <state width="693" height="215" key="GridCell.Tab.0.center" timestamp="1580158952316">
-      <screen x="0" y="27" width="1440" height="873" />
+    <state width="1377" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428846604" />
+    <state width="1377" height="260" key="GridCell.Tab.0.center" timestamp="1580428846604">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="693" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
-    <state width="693" height="215" key="GridCell.Tab.0.left" timestamp="1580158952316">
-      <screen x="0" y="27" width="1440" height="873" />
+    <state width="1377" height="260" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428846604" />
+    <state width="1377" height="260" key="GridCell.Tab.0.left" timestamp="1580428846604">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="693" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
-    <state width="693" height="215" key="GridCell.Tab.0.right" timestamp="1580158952317">
-      <screen x="0" y="27" width="1440" height="873" />
+    <state width="1377" height="260" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428846604" />
+    <state width="1377" height="260" key="GridCell.Tab.0.right" timestamp="1580428846604">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="693" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
-    <state x="0" y="82" width="1031" height="744" key="SettingsEditor" timestamp="1580155851428">
-      <screen x="0" y="27" width="1440" height="873" />
+    <state width="1377" height="260" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428846604" />
+    <state x="67" y="93" width="1031" height="744" key="SettingsEditor" timestamp="1580423752172">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="0" y="82" width="1031" height="744" key="SettingsEditor/0.27.1440.873@0.27.1440.873" timestamp="1580155851428" />
+    <state x="67" y="93" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423752172" />
     <state x="20" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1580158459818">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
