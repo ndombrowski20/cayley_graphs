@@ -36,30 +36,45 @@ def generate_vector(n):
 # generates m pairs of vectors and calculates the angle between them, storing all resulting angles in a list.
 # n indicates the dimension of the vector, m indicates, ultimately, the number of angles calculated
 
-def generate_angles(n, m):
+def generate_angles(n_list, m):
     angle_list = []
-    for i in range(m):
-        new_angle = angle_calc(np.random.normal(0.0, .05, n), np.random.normal(0.0, .05, n))
-        angle_list.append(new_angle)
+    for n in n_list:
+      angle_list_n = []
+      angle_list_n.clear()
+      for i in range(m):
+          new_angle = angle_calc(np.random.normal(0.0, .05, n), np.random.normal(0.0, .05, n))
+          angle_list_n.append(new_angle)
+      angle_list.append(angle_list_n)
     return angle_list
 
-
-assignment = generate_angles(1000, 5*10**4)
+assignment = generate_angles([2, 10, 100], 5*10**4)
 
 # i don't want my machine to build the plot every time so i just wrote it into a function i could call
+# also, i made the histograms overlap cause it kinda looks cool, but there's a version with different histograms
 
 
 def plot_angles(angle_list):
     plt.figure()
-    plt.hist(angle_list, 100)
+    for i in range(len(angle_list)):
+      plt.hist(angle_list[i], 100)
     plt.xlim(0, 180)
     plt.xlabel("angle (degrees)")
     plt.ylabel("count")
-    # plt.plot(angle_list[100], 100, '.')
-    # print(angle_list[100])
+    plt.title("Distribution of Angles between pairs of Normally Distributed Random Vectors")
     plt.show()
 
+
+def plot_angles_boring(angle_list):
+    for i in range(len(angle_list)):
+      plt.figure()
+      plt.hist(angle_list[i], 100)
+      plt.xlim(0, 180)
+      plt.xlabel("angle (degrees)")
+    plt.show()
+
+
 plot_angles(assignment)
+# plot_angles_boring(assignment)
 
 # ===== part 2 =====
 
