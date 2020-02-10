@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="finished assignment 1 for ANNs. i also downloaded the graphics i had to make so they were easier to compare for the assignment">
+      <change afterPath="$PROJECT_DIR$/DFWT/.idea/DFWT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFWT/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFWT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFWT/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFWT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFWT/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFWT/sampling_audiosignals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cayley-graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cayley-graph.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +53,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.dombrowski_hw1">
+  <component name="RunManager" selected="Python.sampling_audiosignals">
     <configuration name="dombrowski_hw1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,27 +75,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="graphing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cayley-graph" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ml_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +88,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/udemy_ml/ml_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sampling_audiosignals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cayley-graph" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFWT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFWT/sampling_audiosignals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,19 +160,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.whiteboard" />
-      <item itemvalue="Python.graphing" />
-      <item itemvalue="Python.scratch_paper" />
-      <item itemvalue="Python.ml_3" />
       <item itemvalue="Python.dombrowski_hw1" />
+      <item itemvalue="Python.ml_3" />
+      <item itemvalue="Python.scratch_paper" />
+      <item itemvalue="Python.whiteboard" />
+      <item itemvalue="Python.sampling_audiosignals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sampling_audiosignals" />
         <item itemvalue="Python.dombrowski_hw1" />
         <item itemvalue="Python.ml_3" />
         <item itemvalue="Python.whiteboard" />
         <item itemvalue="Python.scratch_paper" />
-        <item itemvalue="Python.graphing" />
       </list>
     </recent_temporary>
   </component>
@@ -486,43 +495,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="finished assignment 1 for ANNs. i also downloaded the graphics i had to make so they were easier to compare for the assignment" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="681" y="196" key="#dombrowski_hw1" timestamp="1581346471843">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="681" y="196" key="#dombrowski_hw1/0.0.1920.1160@0.0.1920.1160" timestamp="1581346471843" />
     <state x="67" y="62" width="790" height="823" key="CommitChangelistDialog2" timestamp="1580428963875">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="0" y="56" width="790" height="823" key="CommitChangelistDialog2/0.27.1440.873@0.27.1440.873" timestamp="1580157498261" />
     <state x="67" y="62" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428963875" />
-    <state x="504" y="300" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580423394507">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="453" y="301" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581346293143">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="453" y="301" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1581346293143" />
     <state x="504" y="300" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423394507" />
-    <state width="1377" height="260" key="GridCell.Tab.0.bottom" timestamp="1580428999846">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1364" height="266" key="GridCell.Tab.0.bottom" timestamp="1581348168523">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1364" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1581348168523" />
     <state width="693" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
     <state width="1377" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1377" height="260" key="GridCell.Tab.0.center" timestamp="1580428999846">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1364" height="266" key="GridCell.Tab.0.center" timestamp="1581348168523">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1364" height="266" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1581348168523" />
     <state width="693" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
     <state width="1377" height="260" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1377" height="260" key="GridCell.Tab.0.left" timestamp="1580428999846">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1364" height="266" key="GridCell.Tab.0.left" timestamp="1581348168522">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1364" height="266" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1581348168522" />
     <state width="693" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
     <state width="1377" height="260" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1377" height="260" key="GridCell.Tab.0.right" timestamp="1580428999846">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1364" height="266" key="GridCell.Tab.0.right" timestamp="1581348168523">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1364" height="266" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1581348168523" />
     <state width="693" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
     <state width="1377" height="260" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state x="67" y="93" width="1031" height="744" key="SettingsEditor" timestamp="1580423752172">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="0" y="73" width="1031" height="744" key="SettingsEditor" timestamp="1581347336239">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="0" y="73" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1581347336239" />
     <state x="0" y="82" width="1031" height="744" key="SettingsEditor/0.27.1440.873@0.27.1440.873" timestamp="1580155851428" />
     <state x="67" y="93" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423752172" />
-    <state x="93" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580433005113">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="27" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581346285363">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="27" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1581346285363" />
     <state x="20" y="290" key="com.intellij.ide.util.TipDialog/0.27.1440.873@0.27.1440.873" timestamp="1580158459818" />
     <state x="93" y="344" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580433005113" />
     <state x="239" y="454" width="444" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580433071718">
@@ -530,6 +550,10 @@
     </state>
     <state x="134" y="381" width="444" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1440.873@0.27.1440.873" timestamp="1580158787053" />
     <state x="239" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580433071718" />
+    <state x="935" y="266" key="search.everywhere.popup" timestamp="1581347102188">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="935" y="266" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1581347102188" />
   </component>
   <component name="masterDetails">
     <states>
