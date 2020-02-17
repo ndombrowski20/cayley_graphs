@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="finished assignment 1 for ANNs. i also downloaded the graphics i had to make so they were easier to compare for the assignment">
-      <change afterPath="$PROJECT_DIR$/DFWT/.idea/DFWT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFWT/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFWT/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFWT/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFWT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFWT/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFWT/sampling_audiosignals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cayley-graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cayley-graph.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="started doing some independent work for DFWT. Just some basic exercises in sampling functions. created the sampling_audiosignals.py file">
+      <change afterPath="$PROJECT_DIR$/debtly/data_berka/account.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debtly/data_berka/card.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debtly/data_berka/client.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debtly/data_berka/disp.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debtly/data_berka/district.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debtly/data_berka/loan.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debtly/data_berka/order.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debtly/data_berka/trans.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debtly/data_berka/transaction.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debtly/testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DFWT/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.sampling_audiosignals">
+  <component name="RunManager" selected="Python.testing">
     <configuration name="dombrowski_hw1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch_paper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debtly" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scratch_paper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debtly/testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,17 +164,17 @@
     <list>
       <item itemvalue="Python.dombrowski_hw1" />
       <item itemvalue="Python.ml_3" />
-      <item itemvalue="Python.scratch_paper" />
       <item itemvalue="Python.whiteboard" />
       <item itemvalue="Python.sampling_audiosignals" />
+      <item itemvalue="Python.testing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testing" />
         <item itemvalue="Python.sampling_audiosignals" />
         <item itemvalue="Python.dombrowski_hw1" />
         <item itemvalue="Python.ml_3" />
         <item itemvalue="Python.whiteboard" />
-        <item itemvalue="Python.scratch_paper" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580428963979</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="started doing some independent work for DFWT. Just some basic exercises in sampling functions. created the sampling_audiosignals.py file">
+      <created>1581348257016</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1581348257016</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -467,7 +476,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="10:41&#10;gonna try this on vlad to see if the extra print statements will help get his ass moving" />
     <MESSAGE value="11:57&#10;again, hoping to help vlad get there" />
     <MESSAGE value="3:22 &#10;trying to print G4 without extraneous nodes/edges" />
     <MESSAGE value="4:48&#10;same - trying to print G4 without extraneous nodes/edges" />
@@ -492,16 +500,18 @@
     <MESSAGE value="udemy ML/AI folder added as well as the third project completed" />
     <MESSAGE value="added an ANN folder so that I can access my assignments cross-platform" />
     <MESSAGE value="finished assignment 1 for ANNs. i also downloaded the graphics i had to make so they were easier to compare for the assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished assignment 1 for ANNs. i also downloaded the graphics i had to make so they were easier to compare for the assignment" />
+    <MESSAGE value="started doing some independent work for DFWT. Just some basic exercises in sampling functions. created the sampling_audiosignals.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="started doing some independent work for DFWT. Just some basic exercises in sampling functions. created the sampling_audiosignals.py file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="681" y="196" key="#dombrowski_hw1" timestamp="1581346471843">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="681" y="196" key="#dombrowski_hw1/0.0.1920.1160@0.0.1920.1160" timestamp="1581346471843" />
-    <state x="67" y="62" width="790" height="823" key="CommitChangelistDialog2" timestamp="1580428963875">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="0" y="39" width="790" height="823" key="CommitChangelistDialog2" timestamp="1581348256297">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="0" y="39" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1581348256297" />
     <state x="0" y="56" width="790" height="823" key="CommitChangelistDialog2/0.27.1440.873@0.27.1440.873" timestamp="1580157498261" />
     <state x="67" y="62" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428963875" />
     <state x="453" y="301" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581346293143">
@@ -509,28 +519,28 @@
     </state>
     <state x="453" y="301" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1581346293143" />
     <state x="504" y="300" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423394507" />
-    <state width="1364" height="266" key="GridCell.Tab.0.bottom" timestamp="1581348168523">
+    <state width="1364" height="321" key="GridCell.Tab.0.bottom" timestamp="1581973733303">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1364" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1581348168523" />
+    <state width="1364" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
     <state width="1377" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1364" height="266" key="GridCell.Tab.0.center" timestamp="1581348168523">
+    <state width="1364" height="321" key="GridCell.Tab.0.center" timestamp="1581973733303">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1364" height="266" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1581348168523" />
+    <state width="1364" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
     <state width="1377" height="260" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1364" height="266" key="GridCell.Tab.0.left" timestamp="1581348168522">
+    <state width="1364" height="321" key="GridCell.Tab.0.left" timestamp="1581973733303">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1364" height="266" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1581348168522" />
+    <state width="1364" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
     <state width="1377" height="260" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1364" height="266" key="GridCell.Tab.0.right" timestamp="1581348168523">
+    <state width="1364" height="321" key="GridCell.Tab.0.right" timestamp="1581973733303">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1364" height="266" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1581348168523" />
+    <state width="1364" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
     <state width="1377" height="260" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
     <state x="0" y="73" width="1031" height="744" key="SettingsEditor" timestamp="1581347336239">

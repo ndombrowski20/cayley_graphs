@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d244f8-8ed7-4a1d-b6ff-08554ee1e464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DFWT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sampling_audiosignals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/cayley-graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/cayley-graph.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +45,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="741" y="336" key="FileChooserDialogImpl" timestamp="1581346453193">
+    <state x="741" y="336" key="FileChooserDialogImpl" timestamp="1581973480949">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="741" y="336" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1581346453193" />
+    <state x="741" y="336" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1581973480949" />
+    <state x="656" y="406" key="com.intellij.ide.util.TipDialog" timestamp="1581973439215">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="656" y="406" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1581973439215" />
   </component>
 </project>
