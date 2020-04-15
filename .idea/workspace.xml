@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="started doing some independent work for DFWT. Just some basic exercises in sampling functions. created the sampling_audiosignals.py file">
-      <change afterPath="$PROJECT_DIR$/debtly/data_berka/account.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debtly/data_berka/card.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debtly/data_berka/client.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debtly/data_berka/disp.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debtly/data_berka/district.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debtly/data_berka/loan.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debtly/data_berka/order.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debtly/data_berka/trans.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debtly/data_berka/transaction.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debtly/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cayley-graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cayley-graph.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DFWT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANNs/project/monkeying_around.py" beforeDir="false" afterPath="$PROJECT_DIR$/ANNs/project/monkeying_around.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/data_berka/account.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/data_berka/card.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/data_berka/client.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/data_berka/disp.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/data_berka/district.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/data_berka/loan.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/data_berka/order.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/data_berka/trans.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/data_berka/transaction.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debtly/testing.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +65,22 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.testing">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ANNs/hw1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.monkeying_around">
     <configuration name="dombrowski_hw1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,6 +115,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/udemy_ml/ml_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="monkeying_around" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cayley-graph" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ANNs/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANNs/project/monkeying_around.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,41 +186,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="whiteboard" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cayley-graph" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/whiteboard.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.dombrowski_hw1" />
       <item itemvalue="Python.ml_3" />
-      <item itemvalue="Python.whiteboard" />
       <item itemvalue="Python.sampling_audiosignals" />
       <item itemvalue="Python.testing" />
+      <item itemvalue="Python.monkeying_around" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.monkeying_around" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.sampling_audiosignals" />
         <item itemvalue="Python.dombrowski_hw1" />
         <item itemvalue="Python.ml_3" />
-        <item itemvalue="Python.whiteboard" />
       </list>
     </recent_temporary>
   </component>
@@ -452,9 +477,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -473,6 +496,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -508,6 +532,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="681" y="196" key="#dombrowski_hw1/0.0.1920.1160@0.0.1920.1160" timestamp="1581346471843" />
+    <state x="499" y="53" key="#monkeying_around" timestamp="1586960817117">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state x="499" y="53" key="#monkeying_around/65.24.1535.876@65.24.1535.876" timestamp="1586960817117" />
     <state x="0" y="39" width="790" height="823" key="CommitChangelistDialog2" timestamp="1581348256297">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -519,35 +547,40 @@
     </state>
     <state x="453" y="301" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1581346293143" />
     <state x="504" y="300" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423394507" />
-    <state width="1364" height="321" key="GridCell.Tab.0.bottom" timestamp="1581973733303">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1512" height="237" key="GridCell.Tab.0.bottom" timestamp="1586964864632">
+      <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
+    <state width="1512" height="237" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1586964864632" />
     <state width="1377" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1364" height="321" key="GridCell.Tab.0.center" timestamp="1581973733303">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1512" height="237" key="GridCell.Tab.0.center" timestamp="1586964864632">
+      <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
+    <state width="1512" height="237" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1586964864632" />
     <state width="1377" height="260" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1364" height="321" key="GridCell.Tab.0.left" timestamp="1581973733303">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1512" height="237" key="GridCell.Tab.0.left" timestamp="1586964864631">
+      <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
+    <state width="1512" height="237" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1586964864631" />
     <state width="1377" height="260" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1364" height="321" key="GridCell.Tab.0.right" timestamp="1581973733303">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1512" height="237" key="GridCell.Tab.0.right" timestamp="1586964864632">
+      <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
+    <state width="1512" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1586964864632" />
     <state width="1377" height="260" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state x="0" y="73" width="1031" height="744" key="SettingsEditor" timestamp="1581347336239">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="65" y="79" width="900" height="728" key="SettingsEditor" timestamp="1586960895808">
+      <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state x="0" y="73" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1581347336239" />
     <state x="0" y="82" width="1031" height="744" key="SettingsEditor/0.27.1440.873@0.27.1440.873" timestamp="1580155851428" />
+    <state x="65" y="79" width="900" height="728" key="SettingsEditor/65.24.1535.876@65.24.1535.876" timestamp="1586960895808" />
     <state x="67" y="93" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423752172" />
     <state x="27" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581346285363">
       <screen x="0" y="0" width="1920" height="1160" />
