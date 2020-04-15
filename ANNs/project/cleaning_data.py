@@ -17,15 +17,6 @@ def find_week(a_list, init):
     return nfd
 
 
-def run_sheet(a_list):
-    for i in range(len(a_list)):
-        current_date = a_list[i][0]
-        nfd = find_week(a_list, i)
-        if check_week(nfd):
-            # go code goes here
-            print("yay we got here")
-
-
 def find_dates_sheet(a_str):
     with open(a_str, newline='') as csvfile:
         reader = csv.DictReader(csvfile, delimiter=',', quotechar='|')
@@ -38,7 +29,6 @@ def find_dates_sheet(a_str):
             if check_week(nfd):
                 days += nfd
                 i += 6
-        print("here")
         return days
 
 
@@ -48,10 +38,27 @@ def create_data(a_str, days_list):
         reader = csv.DictReader(csvfile, delimiter=',', quotechar='|')
         for row in reader:
             if row['Date'] in days_list:
-                print(row)
                 data.append(row)
+        return data
+
+
+def sorting_data(data_list):
+    big_list = []
+    for i in range(int(len(data_list) / 5)):
+        data = []
+        data.clear()
+        for j in range(5):
+            data.append(data_list[i+j]["Volume"])
+            data.append(data_list[i+j]["High"])
+            data.append(data_list[i+j]["Low"])
+            data.append(data_list[i+j]["Open"])
+            data.append(data_list[i+j]["Close"])
+        big_list.append(data)
+    return big_list
 
 
 date_list = find_dates_sheet('a.us.txt')
-create_data('a.us.txt', date_list)
+new_data = create_data('a.us.txt', date_list)
+print(sorting_data(new_data))
+
 
