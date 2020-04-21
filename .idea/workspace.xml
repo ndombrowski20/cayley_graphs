@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="started doing some independent work for DFWT. Just some basic exercises in sampling functions. created the sampling_audiosignals.py file">
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="working on outputting the data into lists of lists of 'data points', which for this project will be &quot;points in R^25&quot; but really represent a week's worth of data in list format">
+      <change afterPath="$PROJECT_DIR$/ANNs/project/aa.us.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ANNs/project/data_full.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ANNs/project/cleaning_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ANNs/project/cleaning_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -449,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581348257016</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="working on outputting the data into lists of lists of 'data points', which for this project will be &quot;points in R^25&quot; but really represent a week's worth of data in list format">
+      <created>1586975627473</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1586975627473</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -490,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="11:57&#10;again, hoping to help vlad get there" />
     <MESSAGE value="3:22 &#10;trying to print G4 without extraneous nodes/edges" />
     <MESSAGE value="4:48&#10;same - trying to print G4 without extraneous nodes/edges" />
     <MESSAGE value="3:50&#10;changes to output_gv" />
@@ -515,7 +524,8 @@
     <MESSAGE value="added an ANN folder so that I can access my assignments cross-platform" />
     <MESSAGE value="finished assignment 1 for ANNs. i also downloaded the graphics i had to make so they were easier to compare for the assignment" />
     <MESSAGE value="started doing some independent work for DFWT. Just some basic exercises in sampling functions. created the sampling_audiosignals.py file" />
-    <option name="LAST_COMMIT_MESSAGE" value="started doing some independent work for DFWT. Just some basic exercises in sampling functions. created the sampling_audiosignals.py file" />
+    <MESSAGE value="working on outputting the data into lists of lists of 'data points', which for this project will be &quot;points in R^25&quot; but really represent a week's worth of data in list format" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on outputting the data into lists of lists of 'data points', which for this project will be &quot;points in R^25&quot; but really represent a week's worth of data in list format" />
   </component>
   <component name="WindowStateProjectService">
     <state x="681" y="196" key="#dombrowski_hw1" timestamp="1581346471843">
@@ -537,34 +547,50 @@
     </state>
     <state x="453" y="301" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1581346293143" />
     <state x="504" y="300" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423394507" />
-    <state width="1512" height="237" key="GridCell.Tab.0.bottom" timestamp="1586975481785">
+    <state width="1512" height="237" key="GridCell.Tab.0.bottom" timestamp="1587490024539">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
-    <state width="1512" height="237" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1586975481785" />
+    <state width="1512" height="237" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1587490024539" />
     <state width="1377" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="237" key="GridCell.Tab.0.center" timestamp="1586975481784">
+    <state width="1512" height="237" key="GridCell.Tab.0.center" timestamp="1587490024538">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
-    <state width="1512" height="237" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1586975481784" />
+    <state width="1512" height="237" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1587490024538" />
     <state width="1377" height="260" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="237" key="GridCell.Tab.0.left" timestamp="1586975481783">
+    <state width="1512" height="237" key="GridCell.Tab.0.left" timestamp="1587490024538">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
-    <state width="1512" height="237" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1586975481783" />
+    <state width="1512" height="237" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1587490024538" />
     <state width="1377" height="260" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="237" key="GridCell.Tab.0.right" timestamp="1586975481784">
+    <state width="1512" height="237" key="GridCell.Tab.0.right" timestamp="1587490024538">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
-    <state width="1512" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1586975481784" />
+    <state width="1512" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1587490024538" />
     <state width="1377" height="260" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
+    <state width="1512" height="293" key="GridCell.Tab.1.bottom" timestamp="1587482856601">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state width="1512" height="293" key="GridCell.Tab.1.bottom/65.24.1535.876@65.24.1535.876" timestamp="1587482856601" />
+    <state width="1512" height="293" key="GridCell.Tab.1.center" timestamp="1587482856600">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state width="1512" height="293" key="GridCell.Tab.1.center/65.24.1535.876@65.24.1535.876" timestamp="1587482856600" />
+    <state width="1512" height="293" key="GridCell.Tab.1.left" timestamp="1587482856600">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state width="1512" height="293" key="GridCell.Tab.1.left/65.24.1535.876@65.24.1535.876" timestamp="1587482856600" />
+    <state width="1512" height="293" key="GridCell.Tab.1.right" timestamp="1587482856600">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state width="1512" height="293" key="GridCell.Tab.1.right/65.24.1535.876@65.24.1535.876" timestamp="1587482856600" />
     <state x="65" y="79" width="900" height="728" key="SettingsEditor" timestamp="1586960895808">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
@@ -583,10 +609,11 @@
     </state>
     <state x="134" y="381" width="444" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1440.873@0.27.1440.873" timestamp="1580158787053" />
     <state x="239" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580433071718" />
-    <state x="935" y="266" key="search.everywhere.popup" timestamp="1581347102188">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="813" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587489736498">
+      <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state x="935" y="266" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1581347102188" />
+    <state x="813" y="225" width="672" height="678" key="search.everywhere.popup/65.24.1535.876@65.24.1535.876" timestamp="1587489736498" />
   </component>
   <component name="masterDetails">
     <states>
