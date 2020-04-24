@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="trying to implement the ANN, god i need caffeine">
-      <change afterPath="$PROJECT_DIR$/ANNs/project/data_small.csv" afterDir="false" />
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="added the full data set and renamed the smaller one to a more appropriate title. I removed the reg_grad_step function as well considering it only diverged">
+      <change afterPath="$PROJECT_DIR$/ANNs/project/more_monkeys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANNs/project/data_full.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ANNs/project/data_full.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANNs/project/monkey_biz.py" beforeDir="false" afterPath="$PROJECT_DIR$/ANNs/project/monkey_biz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <recent name="$PROJECT_DIR$/ANNs/hw1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.monkey_biz">
+  <component name="RunManager" selected="Python.more_monkeys">
     <configuration name="cleaning_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,27 +93,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dombrowski_hw1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cayley-graph" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ANNs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANNs/hw1/dombrowski_hw1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="monkey_biz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +106,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANNs/project/monkey_biz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="more_monkeys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cayley-graph" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ANNs/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANNs/project/more_monkeys.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,19 +178,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dombrowski_hw1" />
       <item itemvalue="Python.sampling_audiosignals" />
       <item itemvalue="Python.testing" />
       <item itemvalue="Python.cleaning_data" />
       <item itemvalue="Python.monkey_biz" />
+      <item itemvalue="Python.more_monkeys" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.more_monkeys" />
         <item itemvalue="Python.monkey_biz" />
         <item itemvalue="Python.cleaning_data" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.sampling_audiosignals" />
-        <item itemvalue="Python.dombrowski_hw1" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587708090547</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="trying to implement the ANN, god i need caffeine">
+      <created>1587710957510</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1587710957510</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -514,7 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="3:50&#10;changes to output_gv" />
     <MESSAGE value="2:11&#10;&#10;running and saving on vlad" />
     <MESSAGE value="2:14&#10;&#10;running and saving on vlad pt 2" />
     <MESSAGE value="2:17&#10;&#10;running and saving on vlad pt 3" />
@@ -539,7 +543,8 @@
     <MESSAGE value="working on outputting the data into lists of lists of 'data points', which for this project will be &quot;points in R^25&quot; but really represent a week's worth of data in list format" />
     <MESSAGE value="trying out the new python and seeing what we can do about reading in this data" />
     <MESSAGE value="trying to implement the ANN, god i need caffeine" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to implement the ANN, god i need caffeine" />
+    <MESSAGE value="added the full data set and renamed the smaller one to a more appropriate title. I removed the reg_grad_step function as well considering it only diverged" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the full data set and renamed the smaller one to a more appropriate title. I removed the reg_grad_step function as well considering it only diverged" />
   </component>
   <component name="WindowStateProjectService">
     <state x="681" y="196" key="#dombrowski_hw1" timestamp="1581346471843">
@@ -562,33 +567,33 @@
     <state x="453" y="301" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1581346293143" />
     <state x="427" y="251" width="374" height="366" key="FileChooserDialogImpl/65.24.1535.876@65.24.1535.876" timestamp="1587704832325" />
     <state x="504" y="300" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423394507" />
-    <state width="1512" height="391" key="GridCell.Tab.0.bottom" timestamp="1587710757750">
+    <state width="1512" height="391" key="GridCell.Tab.0.bottom" timestamp="1587715139393">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
-    <state width="1512" height="391" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1587710757750" />
+    <state width="1512" height="391" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1587715139393" />
     <state width="1377" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="391" key="GridCell.Tab.0.center" timestamp="1587710757749">
+    <state width="1512" height="391" key="GridCell.Tab.0.center" timestamp="1587715139392">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
-    <state width="1512" height="391" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1587710757749" />
+    <state width="1512" height="391" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1587715139392" />
     <state width="1377" height="260" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="391" key="GridCell.Tab.0.left" timestamp="1587710757749">
+    <state width="1512" height="391" key="GridCell.Tab.0.left" timestamp="1587715139391">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
-    <state width="1512" height="391" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1587710757749" />
+    <state width="1512" height="391" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1587715139391" />
     <state width="1377" height="260" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="391" key="GridCell.Tab.0.right" timestamp="1587710757750">
+    <state width="1512" height="391" key="GridCell.Tab.0.right" timestamp="1587715139392">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
-    <state width="1512" height="391" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1587710757750" />
+    <state width="1512" height="391" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1587715139392" />
     <state width="1377" height="260" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
     <state width="1512" height="293" key="GridCell.Tab.1.bottom" timestamp="1587710659602">
       <screen x="65" y="24" width="1535" height="876" />
@@ -606,12 +611,12 @@
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1512" height="293" key="GridCell.Tab.1.right/65.24.1535.876@65.24.1535.876" timestamp="1587710659601" />
-    <state x="65" y="79" width="900" height="728" key="SettingsEditor" timestamp="1587704902626">
+    <state x="700" y="172" width="900" height="728" key="SettingsEditor" timestamp="1587712394165">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state x="0" y="73" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1581347336239" />
     <state x="0" y="82" width="1031" height="744" key="SettingsEditor/0.27.1440.873@0.27.1440.873" timestamp="1580155851428" />
-    <state x="65" y="79" width="900" height="728" key="SettingsEditor/65.24.1535.876@65.24.1535.876" timestamp="1587704902626" />
+    <state x="700" y="172" width="900" height="728" key="SettingsEditor/65.24.1535.876@65.24.1535.876" timestamp="1587712394165" />
     <state x="67" y="93" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423752172" />
     <state width="768" height="452" key="XDebugger.FullValuePopup" timestamp="1587706251902">
       <screen x="65" y="24" width="1535" height="876" />
