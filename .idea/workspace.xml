@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="working on outputting the data into lists of lists of 'data points', which for this project will be &quot;points in R^25&quot; but really represent a week's worth of data in list format" />
+    <list default="true" id="29a557c2-a6bc-4a59-ab3a-a55d66bf9fde" name="Default" comment="trying out the new python and seeing what we can do about reading in this data">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANNs/project/monkey_biz.py" beforeDir="false" afterPath="$PROJECT_DIR$/ANNs/project/monkey_biz.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +71,7 @@
       <recent name="$PROJECT_DIR$/ANNs/hw1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cleaning_data">
+  <component name="RunManager" selected="Python.monkey_biz">
     <configuration name="cleaning_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ml_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="monkey_biz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cayley-graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/udemy_ml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ANNs/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/udemy_ml/ml_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANNs/project/monkey_biz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,18 +179,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.dombrowski_hw1" />
-      <item itemvalue="Python.ml_3" />
       <item itemvalue="Python.sampling_audiosignals" />
       <item itemvalue="Python.testing" />
       <item itemvalue="Python.cleaning_data" />
+      <item itemvalue="Python.monkey_biz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.monkey_biz" />
         <item itemvalue="Python.cleaning_data" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.sampling_audiosignals" />
         <item itemvalue="Python.dombrowski_hw1" />
-        <item itemvalue="Python.ml_3" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586975627473</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="trying out the new python and seeing what we can do about reading in this data">
+      <created>1587705167489</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1587705167489</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -495,7 +505,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="3:22 &#10;trying to print G4 without extraneous nodes/edges" />
     <MESSAGE value="4:48&#10;same - trying to print G4 without extraneous nodes/edges" />
     <MESSAGE value="3:50&#10;changes to output_gv" />
     <MESSAGE value="2:11&#10;&#10;running and saving on vlad" />
@@ -520,7 +529,8 @@
     <MESSAGE value="finished assignment 1 for ANNs. i also downloaded the graphics i had to make so they were easier to compare for the assignment" />
     <MESSAGE value="started doing some independent work for DFWT. Just some basic exercises in sampling functions. created the sampling_audiosignals.py file" />
     <MESSAGE value="working on outputting the data into lists of lists of 'data points', which for this project will be &quot;points in R^25&quot; but really represent a week's worth of data in list format" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on outputting the data into lists of lists of 'data points', which for this project will be &quot;points in R^25&quot; but really represent a week's worth of data in list format" />
+    <MESSAGE value="trying out the new python and seeing what we can do about reading in this data" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying out the new python and seeing what we can do about reading in this data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="681" y="196" key="#dombrowski_hw1" timestamp="1581346471843">
@@ -543,50 +553,50 @@
     <state x="453" y="301" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1581346293143" />
     <state x="427" y="251" width="374" height="366" key="FileChooserDialogImpl/65.24.1535.876@65.24.1535.876" timestamp="1587704832325" />
     <state x="504" y="300" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423394507" />
-    <state width="1512" height="237" key="GridCell.Tab.0.bottom" timestamp="1587490024539">
+    <state width="1512" height="237" key="GridCell.Tab.0.bottom" timestamp="1587707922539">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
-    <state width="1512" height="237" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1587490024539" />
+    <state width="1512" height="237" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1587707922539" />
     <state width="1377" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="237" key="GridCell.Tab.0.center" timestamp="1587490024538">
+    <state width="1512" height="237" key="GridCell.Tab.0.center" timestamp="1587707922539">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
-    <state width="1512" height="237" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1587490024538" />
+    <state width="1512" height="237" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1587707922539" />
     <state width="1377" height="260" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="237" key="GridCell.Tab.0.left" timestamp="1587490024538">
+    <state width="1512" height="237" key="GridCell.Tab.0.left" timestamp="1587707922538">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1580158952316" />
-    <state width="1512" height="237" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1587490024538" />
+    <state width="1512" height="237" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1587707922538" />
     <state width="1377" height="260" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="237" key="GridCell.Tab.0.right" timestamp="1587490024538">
+    <state width="1512" height="237" key="GridCell.Tab.0.right" timestamp="1587707922539">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1364" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1581973733303" />
     <state width="693" height="215" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1580158952317" />
-    <state width="1512" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1587490024538" />
+    <state width="1512" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1587707922539" />
     <state width="1377" height="260" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580428999846" />
-    <state width="1512" height="293" key="GridCell.Tab.1.bottom" timestamp="1587482856601">
+    <state width="1512" height="293" key="GridCell.Tab.1.bottom" timestamp="1587706388791">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state width="1512" height="293" key="GridCell.Tab.1.bottom/65.24.1535.876@65.24.1535.876" timestamp="1587482856601" />
-    <state width="1512" height="293" key="GridCell.Tab.1.center" timestamp="1587482856600">
+    <state width="1512" height="293" key="GridCell.Tab.1.bottom/65.24.1535.876@65.24.1535.876" timestamp="1587706388791" />
+    <state width="1512" height="293" key="GridCell.Tab.1.center" timestamp="1587706388790">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state width="1512" height="293" key="GridCell.Tab.1.center/65.24.1535.876@65.24.1535.876" timestamp="1587482856600" />
-    <state width="1512" height="293" key="GridCell.Tab.1.left" timestamp="1587482856600">
+    <state width="1512" height="293" key="GridCell.Tab.1.center/65.24.1535.876@65.24.1535.876" timestamp="1587706388790" />
+    <state width="1512" height="293" key="GridCell.Tab.1.left" timestamp="1587706388789">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state width="1512" height="293" key="GridCell.Tab.1.left/65.24.1535.876@65.24.1535.876" timestamp="1587482856600" />
-    <state width="1512" height="293" key="GridCell.Tab.1.right" timestamp="1587482856600">
+    <state width="1512" height="293" key="GridCell.Tab.1.left/65.24.1535.876@65.24.1535.876" timestamp="1587706388789" />
+    <state width="1512" height="293" key="GridCell.Tab.1.right" timestamp="1587706388790">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state width="1512" height="293" key="GridCell.Tab.1.right/65.24.1535.876@65.24.1535.876" timestamp="1587482856600" />
+    <state width="1512" height="293" key="GridCell.Tab.1.right/65.24.1535.876@65.24.1535.876" timestamp="1587706388790" />
     <state x="65" y="79" width="900" height="728" key="SettingsEditor" timestamp="1587704902626">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
@@ -594,6 +604,10 @@
     <state x="0" y="82" width="1031" height="744" key="SettingsEditor/0.27.1440.873@0.27.1440.873" timestamp="1580155851428" />
     <state x="65" y="79" width="900" height="728" key="SettingsEditor/65.24.1535.876@65.24.1535.876" timestamp="1587704902626" />
     <state x="67" y="93" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580423752172" />
+    <state width="768" height="452" key="XDebugger.FullValuePopup" timestamp="1587706251902">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state width="768" height="452" key="XDebugger.FullValuePopup/65.24.1535.876@65.24.1535.876" timestamp="1587706251902" />
     <state x="27" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581346285363">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
